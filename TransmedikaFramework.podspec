@@ -8,9 +8,9 @@
 Pod::Spec.new do |spec|
 
 
-  spec.name         = "TransmedikFramework"
+  spec.name         = "TransmedikaFramework"
   spec.version      = "1.0.0"
-  spec.summary      = "TransmedikFramework"
+  spec.summary      = "TransmedikaFramework"
   spec.description  = "this framework for We Plus apps"
   
   spec.homepage     = "https://github.com/idhamcuexs/TransmedikaFramework"
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "13.0"
   spec.source       = { :git => "https://github.com/idhamcuexs/TransmedikaFramework.git", :tag => spec.version.to_s }
 
-  spec.source_files  = "TransmedikFramework/**/*.{swift}"
+  spec.source_files  = "**/*.{swift}"
   spec.swift_version = "4.0"
 
 end
