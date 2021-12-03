@@ -1,0 +1,6 @@
+framework module Pods_transmedik_transmedikTests {
+  umbrella header "Pods-transmedik-transmedikTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

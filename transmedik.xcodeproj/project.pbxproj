@@ -1,0 +1,2050 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300BC279269821CD009F0AC6 /* filterdokterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BC278269821CD009F0AC6 /* filterdokterTableViewCell.swift */; };
+		300BC27D26982453009F0AC6 /* Profiledokter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300BC27C26982453009F0AC6 /* Profiledokter.storyboard */; };
+		300BC282269824BC009F0AC6 /* profiledoktermasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BC281269824BC009F0AC6 /* profiledoktermasterViewController.swift */; };
+		300BC28826982587009F0AC6 /* Doktersobject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BC28726982587009F0AC6 /* Doktersobject.swift */; };
+		300BC28C26982643009F0AC6 /* profiledokterchildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BC28B26982643009F0AC6 /* profiledokterchildViewController.swift */; };
+		300BC290269826EB009F0AC6 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300BC28F269826EB009F0AC6 /* Chat.storyboard */; };
+		300BC29526982B7A009F0AC6 /* transaksichatchildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BC29426982B7A009F0AC6 /* transaksichatchildViewController.swift */; };
+		300BC2A326982FAD009F0AC6 /* Voucherobject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BC2A226982FAD009F0AC6 /* Voucherobject.swift */; };
+		300BC2AB269830F7009F0AC6 /* paymentobject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BC2AA269830F7009F0AC6 /* paymentobject.swift */; };
+		300BC2BF26983CBE009F0AC6 /* Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BC2BE26983CBE009F0AC6 /* Count.swift */; };
+		300BC2C926983D70009F0AC6 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BC2C826983D70009F0AC6 /* Chat.swift */; };
+		300BC2E226983F27009F0AC6 /* balanceobject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BC2E126983F27009F0AC6 /* balanceobject.swift */; };
+		300BC2E626983FDC009F0AC6 /* Loading.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300BC2E526983FDC009F0AC6 /* Loading.storyboard */; };
+		300BC2EB26983FF9009F0AC6 /* lodingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BC2EA26983FF9009F0AC6 /* lodingViewController.swift */; };
+		300BC2FF269842FA009F0AC6 /* transaksichatmasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BC2FE269842FA009F0AC6 /* transaksichatmasterViewController.swift */; };
+		300BC30326984349009F0AC6 /* ProfileObjcect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BC30226984349009F0AC6 /* ProfileObjcect.swift */; };
+		300BC30826984BA4009F0AC6 /* edit_and_add_phrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BC30726984BA4009F0AC6 /* edit_and_add_phrViewController.swift */; };
+		300BC30D269876B2009F0AC6 /* editphrbadanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BC30C269876B2009F0AC6 /* editphrbadanTableViewCell.swift */; };
+		300BC311269877B4009F0AC6 /* Form.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300BC310269877B4009F0AC6 /* Form.storyboard */; };
+		300BC3162698784E009F0AC6 /* formsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BC3152698784E009F0AC6 /* formsViewController.swift */; };
+		300BC31C2698788C009F0AC6 /* form_pertanyaan_delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BC31B2698788C009F0AC6 /* form_pertanyaan_delegate.swift */; };
+		3010290726AFE354002D1F92 /* Form.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3010290626AFE354002D1F92 /* Form.storyboard */; };
+		3010292126AFEC13002D1F92 /* Edituser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3010292026AFEC13002D1F92 /* Edituser.storyboard */; };
+		3010292726AFECB8002D1F92 /* EdituserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3010292626AFECB8002D1F92 /* EdituserViewController.swift */; };
+		3020165A26A962F900EFC78A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3020165926A962F900EFC78A /* Assets.xcassets */; };
+		3020166026A9633000EFC78A /* DetailtanyadoktercellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3020165F26A9633000EFC78A /* DetailtanyadoktercellTableViewCell.xib */; };
+		3020166626A9648100EFC78A /* LoadingDetailtanyadoktercellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3020166526A9648100EFC78A /* LoadingDetailtanyadoktercellTableViewCell.xib */; };
+		3020166C26A9656B00EFC78A /* selectedfilterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3020166B26A9656B00EFC78A /* selectedfilterCollectionViewCell.xib */; };
+		3025E2062699442C006C07FC /* formpertanyaanselectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025E2052699442C006C07FC /* formpertanyaanselectionTableViewCell.swift */; };
+		3025E20B26994461006C07FC /* formpertanyaantextfieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025E20A26994461006C07FC /* formpertanyaantextfieldTableViewCell.swift */; };
+		3025E2112699447E006C07FC /* formpertanyaandateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025E2102699447E006C07FC /* formpertanyaandateTableViewCell.swift */; };
+		3025E2152699463B006C07FC /* formpertanyaanbuttonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025E2142699463B006C07FC /* formpertanyaanbuttonTableViewCell.swift */; };
+		3025E21926994659006C07FC /* formtextareaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025E21826994659006C07FC /* formtextareaTableViewCell.swift */; };
+		3025E21D26994674006C07FC /* celljawabanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025E21C26994674006C07FC /* celljawabanTableViewCell.swift */; };
+		3025E221269948BC006C07FC /* cellotherpertanyaanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025E220269948BC006C07FC /* cellotherpertanyaanTableViewCell.swift */; };
+		3025E225269948DA006C07FC /* cellvaluepertanyaanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025E224269948DA006C07FC /* cellvaluepertanyaanTableViewCell.swift */; };
+		30279C4426AE53E20075B53A /* Categoryobat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30279C4326AE53E20075B53A /* Categoryobat.storyboard */; };
+		30279C4A26AE54670075B53A /* includevoucherobatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279C4926AE54670075B53A /* includevoucherobatViewController.swift */; };
+		30279C5026AE55FE0075B53A /* pinandpassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30279C4F26AE55FE0075B53A /* pinandpassword.storyboard */; };
+		30279C5726AE56470075B53A /* insertpinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279C5626AE56470075B53A /* insertpinViewController.swift */; };
+		30279C8026AE5BF20075B53A /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30279C7F26AE5BF20075B53A /* Notification.storyboard */; };
+		30279C8A26AE5C200075B53A /* loadingsuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279C8726AE5C200075B53A /* loadingsuccessViewController.swift */; };
+		30279C9526AE5D060075B53A /* Webviews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30279C9426AE5D060075B53A /* Webviews.storyboard */; };
+		30279C9B26AE5D540075B53A /* OpenpdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279C9A26AE5D540075B53A /* OpenpdfViewController.swift */; };
+		30279CA626AE5FA50075B53A /* DetailChatViewController+MessageKitExrtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279CA126AE5FA50075B53A /* DetailChatViewController+MessageKitExrtension.swift */; };
+		30279CA726AE5FA50075B53A /* DetailChatViewController+DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279CA226AE5FA50075B53A /* DetailChatViewController+DataExtension.swift */; };
+		30279CA926AE5FA50075B53A /* ConsultWaitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279CA426AE5FA50075B53A /* ConsultWaitController.swift */; };
+		30279CAA26AE5FA50075B53A /* DetailChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279CA526AE5FA50075B53A /* DetailChatViewController.swift */; };
+		30279CE726AE60C00075B53A /* UIResepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279CDD26AE60C00075B53A /* UIResepTableViewCell.swift */; };
+		30279CE826AE60C00075B53A /* UIResepStaticTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279CDE26AE60C00075B53A /* UIResepStaticTableViewCell.swift */; };
+		30279CE926AE60C00075B53A /* ChatTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279CDF26AE60C00075B53A /* ChatTitleView.swift */; };
+		30279CEA26AE60C00075B53A /* PasienInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279CE026AE60C00075B53A /* PasienInfoView.swift */; };
+		30279CEB26AE60C00075B53A /* ExChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279CE126AE60C00075B53A /* ExChat.swift */; };
+		30279CEC26AE60C00075B53A /* ExChat.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30279CE226AE60C00075B53A /* ExChat.xib */; };
+		30279CED26AE60C00075B53A /* newexchat.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30279CE426AE60C00075B53A /* newexchat.xib */; };
+		30279CEE26AE60C00075B53A /* newexchat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279CE526AE60C00075B53A /* newexchat.swift */; };
+		30279CEF26AE60C00075B53A /* DoctorInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279CE626AE60C00075B53A /* DoctorInfoView.swift */; };
+		30279D3526AE61970075B53A /* MediaOnlyMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D1A26AE61960075B53A /* MediaOnlyMessageCell.swift */; };
+		30279D3626AE61970075B53A /* TextWithFourMediaMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D1B26AE61960075B53A /* TextWithFourMediaMessageCell.swift */; };
+		30279D3726AE61970075B53A /* OneMediaOnlyMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D1C26AE61960075B53A /* OneMediaOnlyMessageCell.swift */; };
+		30279D3826AE61970075B53A /* TextWithTwoMediaMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D1D26AE61960075B53A /* TextWithTwoMediaMessageCell.swift */; };
+		30279D3926AE61970075B53A /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D1E26AE61960075B53A /* CustomCell.swift */; };
+		30279D3A26AE61970075B53A /* TextWithOneMediaMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D1F26AE61960075B53A /* TextWithOneMediaMessageCell.swift */; };
+		30279D3B26AE61970075B53A /* FourMediaOnlyMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D2026AE61960075B53A /* FourMediaOnlyMessageCell.swift */; };
+		30279D3C26AE61970075B53A /* TwoMediaOnlyMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D2126AE61960075B53A /* TwoMediaOnlyMessageCell.swift */; };
+		30279D3D26AE61970075B53A /* TextWithThreeMediaMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D2226AE61960075B53A /* TextWithThreeMediaMessageCell.swift */; };
+		30279D3E26AE61970075B53A /* Imageloadmessagecell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D2326AE61960075B53A /* Imageloadmessagecell.swift */; };
+		30279D3F26AE61970075B53A /* PHRMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D2426AE61960075B53A /* PHRMessageCell.swift */; };
+		30279D4026AE61970075B53A /* TypingBubble+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D2526AE61960075B53A /* TypingBubble+Extensions.swift */; };
+		30279D4126AE61970075B53A /* ResepDokterMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D2626AE61960075B53A /* ResepDokterMessageCell.swift */; };
+		30279D4226AE61970075B53A /* UrlMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D2726AE61960075B53A /* UrlMessageCell.swift */; };
+		30279D4326AE61970075B53A /* CatatanMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D2826AE61960075B53A /* CatatanMessageCell.swift */; };
+		30279D4426AE61970075B53A /* ThreeMediaOnlyMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D2926AE61960075B53A /* ThreeMediaOnlyMessageCell.swift */; };
+		30279D4526AE61970075B53A /* TextWithMediaMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D2A26AE61960075B53A /* TextWithMediaMessageCell.swift */; };
+		30279D4626AE61970075B53A /* MediaOnlyMessageSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D2C26AE61960075B53A /* MediaOnlyMessageSizeCalculator.swift */; };
+		30279D4726AE61970075B53A /* CatatanMessageSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D2D26AE61960075B53A /* CatatanMessageSizeCalculator.swift */; };
+		30279D4826AE61970075B53A /* ImageloadMessageSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D2E26AE61960075B53A /* ImageloadMessageSizeCalculator.swift */; };
+		30279D4926AE61970075B53A /* ResepDokterMessageSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D2F26AE61960075B53A /* ResepDokterMessageSizeCalculator.swift */; };
+		30279D4A26AE61970075B53A /* TextWithMediaMessageSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D3026AE61960075B53A /* TextWithMediaMessageSizeCalculator.swift */; };
+		30279D4B26AE61970075B53A /* UrlMessageSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D3126AE61960075B53A /* UrlMessageSizeCalculator.swift */; };
+		30279D4C26AE61970075B53A /* PHRMessageSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D3226AE61960075B53A /* PHRMessageSizeCalculator.swift */; };
+		30279D4D26AE61970075B53A /* CustomMessagesFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D3326AE61960075B53A /* CustomMessagesFlowLayout.swift */; };
+		30279D4E26AE61970075B53A /* MYUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D3426AE61960075B53A /* MYUIViewController.swift */; };
+		30279D5A26AE61A00075B53A /* LocalizationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D5426AE61A00075B53A /* LocalizationHelper.swift */; };
+		30279D5B26AE61A00075B53A /* LocalizationEN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D5626AE61A00075B53A /* LocalizationEN.swift */; };
+		30279D5C26AE61A00075B53A /* CalendarEventHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D5726AE61A00075B53A /* CalendarEventHelper.swift */; };
+		30279D5E26AE61A00075B53A /* ScreenSizeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D5926AE61A00075B53A /* ScreenSizeHelper.swift */; };
+		30279D6826AE61AB0075B53A /* LightModeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D6426AE61AB0075B53A /* LightModeColors.swift */; };
+		30279D6926AE61AB0075B53A /* DarkModeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D6526AE61AB0075B53A /* DarkModeColors.swift */; };
+		30279D6A26AE61AB0075B53A /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D6626AE61AB0075B53A /* AppColor.swift */; };
+		30279D6B26AE61AB0075B53A /* DefaultColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279D6726AE61AB0075B53A /* DefaultColors.swift */; };
+		30279E9D26AE6F800075B53A /* BasicAudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279E9A26AE6F800075B53A /* BasicAudioController.swift */; };
+		30279E9F26AE6F800075B53A /* CatatanDokterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279E9C26AE6F800075B53A /* CatatanDokterViewController.swift */; };
+		30279EA926AE701D0075B53A /* Navi.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30279EA526AE701D0075B53A /* Navi.xib */; };
+		30279EAA26AE701D0075B53A /* Notifserverdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279EA626AE701D0075B53A /* Notifserverdown.swift */; };
+		30279EAB26AE701D0075B53A /* Navi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279EA726AE701D0075B53A /* Navi.swift */; };
+		30279EAC26AE701D0075B53A /* Notifserverdown.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30279EA826AE701D0075B53A /* Notifserverdown.xib */; };
+		30279EB326AE707A0075B53A /* sizeimageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279EB226AE707A0075B53A /* sizeimageViewController.swift */; };
+		30279EB926AE709B0075B53A /* Sizeimage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30279EB826AE709B0075B53A /* Sizeimage.storyboard */; };
+		30279EBF26AE71E50075B53A /* extensionchatdetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279EBE26AE71E50075B53A /* extensionchatdetailViewController.swift */; };
+		30279ECC26AE72950075B53A /* FormjawabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279ECA26AE72950075B53A /* FormjawabViewController.swift */; };
+		30279ECD26AE72950075B53A /* formklinikViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279ECB26AE72950075B53A /* formklinikViewController.swift */; };
+		30279ED326AE74C30075B53A /* notifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279ED226AE74C20075B53A /* notifViewController.swift */; };
+		30279F6126AE9FF70075B53A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F4726AE9FF70075B53A /* Date.swift */; };
+		30279F6226AE9FF70075B53A /* uiview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F4826AE9FF70075B53A /* uiview.swift */; };
+		30279F6326AE9FF70075B53A /* UICustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F4926AE9FF70075B53A /* UICustomNavigationBar.swift */; };
+		30279F6426AE9FF70075B53A /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F4A26AE9FF70075B53A /* UIView+Extensions.swift */; };
+		30279F6526AE9FF70075B53A /* UIBadgeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F4B26AE9FF70075B53A /* UIBadgeLabel.swift */; };
+		30279F6626AE9FF70075B53A /* Internetconnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F4C26AE9FF70075B53A /* Internetconnection.swift */; };
+		30279F6726AE9FF70075B53A /* UIEdgeInsets+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F4D26AE9FF70075B53A /* UIEdgeInsets+Extensions.swift */; };
+		30279F6826AE9FF70075B53A /* texfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F4E26AE9FF70075B53A /* texfield.swift */; };
+		30279F6A26AE9FF70075B53A /* UIIMage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F5026AE9FF70075B53A /* UIIMage+Extensions.swift */; };
+		30279F6B26AE9FF70075B53A /* UIPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F5126AE9FF70075B53A /* UIPrimaryButton.swift */; };
+		30279F6C26AE9FF70075B53A /* Dashline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F5226AE9FF70075B53A /* Dashline.swift */; };
+		30279F6D26AE9FF70075B53A /* UITealButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F5326AE9FF70075B53A /* UITealButton.swift */; };
+		30279F6E26AE9FF70075B53A /* UICheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F5426AE9FF70075B53A /* UICheckBox.swift */; };
+		30279F6F26AE9FF70075B53A /* shadownavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F5526AE9FF70075B53A /* shadownavigation.swift */; };
+		30279F7026AE9FF70075B53A /* doubl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F5626AE9FF70075B53A /* doubl.swift */; };
+		30279F7126AE9FF70075B53A /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F5726AE9FF70075B53A /* Gradient.swift */; };
+		30279F7226AE9FF70075B53A /* Multiformdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F5826AE9FF70075B53A /* Multiformdata.swift */; };
+		30279F7326AE9FF70075B53A /* Htmltostring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F5926AE9FF70075B53A /* Htmltostring.swift */; };
+		30279F7426AE9FF70075B53A /* string.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F5A26AE9FF70075B53A /* string.swift */; };
+		30279F7526AE9FF70075B53A /* Capital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F5B26AE9FF70075B53A /* Capital.swift */; };
+		30279F7626AE9FF70075B53A /* imageresize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F5C26AE9FF70075B53A /* imageresize.swift */; };
+		30279F7726AE9FF70075B53A /* backgroundgradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F5D26AE9FF70075B53A /* backgroundgradient.swift */; };
+		30279F7826AE9FF70075B53A /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F5E26AE9FF70075B53A /* Button.swift */; };
+		30279F7926AE9FF70075B53A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F5F26AE9FF70075B53A /* Color.swift */; };
+		30279F7A26AE9FF70075B53A /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F6026AE9FF70075B53A /* Toast.swift */; };
+		30279FAB26AEA0DF0075B53A /* Modelpmr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F8826AEA0DF0075B53A /* Modelpmr.swift */; };
+		30279FAC26AEA0DF0075B53A /* Modeltanyadokter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F8926AEA0DF0075B53A /* Modeltanyadokter.swift */; };
+		30279FAD26AEA0DF0075B53A /* passingontabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F8A26AEA0DF0075B53A /* passingontabbar.swift */; };
+		30279FAE26AEA0DF0075B53A /* ConsultationPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F8C26AEA0DF0075B53A /* ConsultationPostModel.swift */; };
+		30279FAF26AEA0DF0075B53A /* ConsultationUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F8D26AEA0DF0075B53A /* ConsultationUserModel.swift */; };
+		30279FB026AEA0DF0075B53A /* Martikel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F8E26AEA0DF0075B53A /* Martikel.swift */; };
+		30279FB126AEA0DF0075B53A /* modelform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F8F26AEA0DF0075B53A /* modelform.swift */; };
+		30279FB226AEA0DF0075B53A /* Modeldetailtanyadokter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F9026AEA0DF0075B53A /* Modeldetailtanyadokter.swift */; };
+		30279FB326AEA0DF0075B53A /* ConversationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F9226AEA0DF0075B53A /* ConversationModel.swift */; };
+		30279FB426AEA0DF0075B53A /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F9326AEA0DF0075B53A /* ChatModel.swift */; };
+		30279FB526AEA0DF0075B53A /* ConsultationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F9426AEA0DF0075B53A /* ConsultationModel.swift */; };
+		30279FB626AEA0DF0075B53A /* MockMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F9626AEA0DF0075B53A /* MockMessage.swift */; };
+		30279FB726AEA0DF0075B53A /* MockMessageItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F9726AEA0DF0075B53A /* MockMessageItems.swift */; };
+		30279FB826AEA0DF0075B53A /* MockUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F9826AEA0DF0075B53A /* MockUser.swift */; };
+		30279FB926AEA0DF0075B53A /* modelpayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F9926AEA0DF0075B53A /* modelpayment.swift */; };
+		30279FBA26AEA0DF0075B53A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F9A26AEA0DF0075B53A /* User.swift */; };
+		30279FBB26AEA0DF0075B53A /* ModelHistories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F9B26AEA0DF0075B53A /* ModelHistories.swift */; };
+		30279FBC26AEA0DF0075B53A /* Fasilitaskesehatanmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F9C26AEA0DF0075B53A /* Fasilitaskesehatanmodel.swift */; };
+		30279FBD26AEA0DF0075B53A /* sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F9D26AEA0DF0075B53A /* sale.swift */; };
+		30279FBE26AEA0DF0075B53A /* MAdvertisement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F9E26AEA0DF0075B53A /* MAdvertisement.swift */; };
+		30279FBF26AEA0DF0075B53A /* ModelProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279F9F26AEA0DF0075B53A /* ModelProfile.swift */; };
+		30279FC026AEA0DF0075B53A /* MNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279FA026AEA0DF0075B53A /* MNotification.swift */; };
+		30279FC126AEA0DF0075B53A /* Kategori.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279FA126AEA0DF0075B53A /* Kategori.swift */; };
+		30279FC326AEA0DF0075B53A /* Pesannotif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279FA326AEA0DF0075B53A /* Pesannotif.swift */; };
+		30279FC426AEA0DF0075B53A /* Modelorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279FA426AEA0DF0075B53A /* Modelorder.swift */; };
+		30279FC526AEA0DF0075B53A /* ModelVoucer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279FA526AEA0DF0075B53A /* ModelVoucer.swift */; };
+		30279FC626AEA0DF0075B53A /* Mbalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279FA626AEA0DF0075B53A /* Mbalance.swift */; };
+		30279FC726AEA0DF0075B53A /* Mresepobat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279FA726AEA0DF0075B53A /* Mresepobat.swift */; };
+		30279FC826AEA0DF0075B53A /* Adds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279FA826AEA0DF0075B53A /* Adds.swift */; };
+		30279FC926AEA0DF0075B53A /* ModelPHR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279FA926AEA0DF0075B53A /* ModelPHR.swift */; };
+		30279FCA26AEA0DF0075B53A /* AlamatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279FAA26AEA0DF0075B53A /* AlamatModel.swift */; };
+		30279FD826AEA2CE0075B53A /* MObat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279FD726AEA2CE0075B53A /* MObat.swift */; };
+		30279FE226AEA7850075B53A /* ResepDokterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279FE126AEA7850075B53A /* ResepDokterViewController.swift */; };
+		30279FE826AEA81A0075B53A /* resepdigitalobject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279FE726AEA81A0075B53A /* resepdigitalobject.swift */; };
+		3028F153269BEF0E00204CDC /* Transmedik.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3028F152269BEF0E00204CDC /* Transmedik.swift */; };
+		303092BD26D4B055007553B5 /* Getprice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303092BC26D4B055007553B5 /* Getprice.swift */; };
+		303092C926D4CF61007553B5 /* ListcourTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303092C826D4CF61007553B5 /* ListcourTableViewCell.swift */; };
+		3033985427474E0E004557FF /* TanyaDokterListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3033985227474E0E004557FF /* TanyaDokterListTableViewCell.swift */; };
+		3033985527474E0E004557FF /* TanyaDokterListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3033985327474E0E004557FF /* TanyaDokterListTableViewCell.xib */; };
+		3047ABFE26A9278700704C53 /* Manage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047ABFD26A9278700704C53 /* Manage.swift */; };
+		3047AC5426A92B7500704C53 /* fasilitaskesehatanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047AC5226A92B7500704C53 /* fasilitaskesehatanVC.swift */; };
+		3047AC5526A92B7500704C53 /* fasilitaskesehatanVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3047AC5326A92B7500704C53 /* fasilitaskesehatanVC.xib */; };
+		304ECC2F26CAA12400318AD7 /* Alamat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304ECC2E26CAA12400318AD7 /* Alamat.storyboard */; };
+		304ECC3626CAA25D00318AD7 /* listalamatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304ECC3526CAA25D00318AD7 /* listalamatViewController.swift */; };
+		304ECC3C26CAA68F00318AD7 /* MapviewalamatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304ECC3B26CAA68F00318AD7 /* MapviewalamatViewController.swift */; };
+		304ECC7B26CAA72100318AD7 /* Alamat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304ECC7A26CAA72100318AD7 /* Alamat.swift */; };
+		304ECC8526CAAFFA00318AD7 /* NotificationcustomizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304ECC8426CAAFFA00318AD7 /* NotificationcustomizeViewController.swift */; };
+		3063854027587DA0004F4F12 /* NewTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3063853F27587DA0004F4F12 /* NewTrackingViewController.swift */; };
+		3065E4DC26B1096A009E4F8F /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3065E4DB26B10969009E4F8F /* History.storyboard */; };
+		3065E4E326B10A46009E4F8F /* historypembelianViewControllerdelegatetochild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3065E4E226B10A46009E4F8F /* historypembelianViewControllerdelegatetochild.swift */; };
+		3065E4ED26B10A64009E4F8F /* childhistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3065E4EC26B10A64009E4F8F /* childhistoryViewController.swift */; };
+		3065E4F426B10B9E009E4F8F /* historiescellkonsulTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3065E4F326B10B9E009E4F8F /* historiescellkonsulTableViewCell.swift */; };
+		3065E50426B10DC2009E4F8F /* Obat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3065E50326B10DC2009E4F8F /* Obat.swift */; };
+		3065E50A26B10E9C009E4F8F /* history.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3065E50926B10E9C009E4F8F /* history.swift */; };
+		3065E53226B11AA3009E4F8F /* keluhanpesananobatcollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3065E53126B11AA3009E4F8F /* keluhanpesananobatcollCell.swift */; };
+		3065E55226B11C2A009E4F8F /* ratingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3065E55126B11C2A009E4F8F /* ratingViewController.swift */; };
+		3065E55826B11C51009E4F8F /* ratingobject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3065E55726B11C51009E4F8F /* ratingobject.swift */; };
+		3065E55F26B12CE7009E4F8F /* ratingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3065E55E26B12CE7009E4F8F /* ratingCollectionViewCell.swift */; };
+		3065E56B26B12F5C009E4F8F /* Transmedik.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3065E56A26B12F5C009E4F8F /* Transmedik.storyboard */; };
+		3065E57126B130DF009E4F8F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3065E57026B130DF009E4F8F /* HomeViewController.swift */; };
+		3065E57726B133FB009E4F8F /* cellmenuinhomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3065E57626B133FB009E4F8F /* cellmenuinhomeCollectionViewCell.swift */; };
+		3075498E274B80BA00D80534 /* WaitingConsulVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3075498D274B80BA00D80534 /* WaitingConsulVC.swift */; };
+		3076E38E26E5E9C10024506E /* ResepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3076E38D26E5E9C00024506E /* ResepViewController.swift */; };
+		3076E39526E5FDF70024506E /* resepcellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3076E39426E5FDF70024506E /* resepcellTableViewCell.swift */; };
+		3095972E275771000029F2AF /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30959721275770FF0029F2AF /* Roboto-Medium.ttf */; };
+		3095972F275771000029F2AF /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30959722275770FF0029F2AF /* Roboto-Light.ttf */; };
+		30959730275771000029F2AF /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30959723275770FF0029F2AF /* Roboto-Regular.ttf */; };
+		30959731275771000029F2AF /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30959724275770FF0029F2AF /* Roboto-MediumItalic.ttf */; };
+		30959732275771000029F2AF /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30959725275770FF0029F2AF /* Roboto-ThinItalic.ttf */; };
+		30959733275771000029F2AF /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30959726275770FF0029F2AF /* Roboto-BoldItalic.ttf */; };
+		30959734275771000029F2AF /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30959727275770FF0029F2AF /* Roboto-LightItalic.ttf */; };
+		30959735275771000029F2AF /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30959728275770FF0029F2AF /* Roboto-Italic.ttf */; };
+		30959736275771000029F2AF /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 30959729275770FF0029F2AF /* LICENSE.txt */; };
+		30959737275771000029F2AF /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3095972A275770FF0029F2AF /* Roboto-BlackItalic.ttf */; };
+		30959738275771000029F2AF /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3095972B275770FF0029F2AF /* Roboto-Bold.ttf */; };
+		30959739275771000029F2AF /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3095972C275770FF0029F2AF /* Roboto-Thin.ttf */; };
+		3095973A275771000029F2AF /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3095972D275770FF0029F2AF /* Roboto-Black.ttf */; };
+		309D0C9A26B1474F000760ED /* rating.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309D0C9926B1474F000760ED /* rating.storyboard */; };
+		309E17BD26E70F400092971C /* ResepObatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309E17BB26E70F400092971C /* ResepObatTableViewCell.swift */; };
+		309E17BE26E70F400092971C /* ResepObatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 309E17BC26E70F400092971C /* ResepObatTableViewCell.xib */; };
+		30A0130126CCC18C0018B046 /* listalamatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A0130026CCC18C0018B046 /* listalamatTableViewCell.swift */; };
+		30A0130B26CCC2370018B046 /* celltypealamatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A0130A26CCC2370018B046 /* celltypealamatCollectionViewCell.swift */; };
+		30A0131F26CCC9520018B046 /* Resepobatmod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A0131E26CCC9520018B046 /* Resepobatmod.swift */; };
+		30A399B526D23EA600D09D06 /* historiescellobatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A399B426D23EA600D09D06 /* historiescellobatTableViewCell.swift */; };
+		30A399C326D27D1100D09D06 /* Ordertracking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A399C226D27D1100D09D06 /* Ordertracking.storyboard */; };
+		30A399CA26D27D6D00D09D06 /* ordertrackingtransaksi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A399C926D27D6D00D09D06 /* ordertrackingtransaksi.swift */; };
+		30A399E026D27FFD00D09D06 /* ordertrackingtransaksiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A399DF26D27FFD00D09D06 /* ordertrackingtransaksiTableViewCell.swift */; };
+		30A399E626D280DC00D09D06 /* Orderobject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A399E526D280DC00D09D06 /* Orderobject.swift */; };
+		30A399EC26D2837200D09D06 /* checkorderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A399EB26D2837200D09D06 /* checkorderCollectionViewCell.swift */; };
+		30A399F226D2839700D09D06 /* checkkeluhanorderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A399F126D2839700D09D06 /* checkkeluhanorderCollectionViewCell.swift */; };
+		30A4AE3826A93AA8002E2C66 /* FaskessCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A4AE3626A93AA8002E2C66 /* FaskessCollectionViewCell.swift */; };
+		30A4AE3926A93AA8002E2C66 /* FaskessCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30A4AE3726A93AA8002E2C66 /* FaskessCollectionViewCell.xib */; };
+		30A4AEAF26A947F5002E2C66 /* detailklinikVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A4AEAD26A947F5002E2C66 /* detailklinikVc.swift */; };
+		30A4AEB026A947F5002E2C66 /* detailklinikVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30A4AEAE26A947F5002E2C66 /* detailklinikVc.xib */; };
+		30B7C05226AA7A7500B56D10 /* databaseTransmedik.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30B7C05026AA7A7500B56D10 /* databaseTransmedik.xcdatamodeld */; };
+		30B7C05826AA7F6700B56D10 /* CoreManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7C05726AA7F6700B56D10 /* CoreManage.swift */; };
+		30B7C06626AA9DAC00B56D10 /* Pembayaran.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B7C06526AA9DAC00B56D10 /* Pembayaran.storyboard */; };
+		30B7C06D26AA9DCC00B56D10 /* metoderpembayaranViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7C06C26AA9DCC00B56D10 /* metoderpembayaranViewController.swift */; };
+		30B7C07426AA9E3300B56D10 /* pembayaranselectedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7C07326AA9E3300B56D10 /* pembayaranselectedTableViewCell.swift */; };
+		30B8472726C2416400D8DC61 /* Newform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B8472626C2416400D8DC61 /* Newform.swift */; };
+		30B8474726C25E3D00D8DC61 /* Orderobat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B8474626C25E3D00D8DC61 /* Orderobat.storyboard */; };
+		30B8474E26C2603700D8DC61 /* OrderobatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B8474D26C2603700D8DC61 /* OrderobatViewController.swift */; };
+		30B8475526C2618A00D8DC61 /* cartobatpriceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B8475426C2618A00D8DC61 /* cartobatpriceTableViewCell.swift */; };
+		30B8475B26C2630900D8DC61 /* OrderObat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B8475A26C2630900D8DC61 /* OrderObat.swift */; };
+		30B9E3692745FC4A003B77E8 /* NewProfileDokterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B9E3682745FC4A003B77E8 /* NewProfileDokterVC.swift */; };
+		30C20B312696FF3B0098DD0F /* fasilitaskesehatanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C20B302696FF3B0098DD0F /* fasilitaskesehatanViewController.swift */; };
+		30C20B40269701400098DD0F /* FaskesObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C20B3F269701400098DD0F /* FaskesObject.swift */; };
+		30C20B48269702300098DD0F /* SpecialistObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C20B47269702300098DD0F /* SpecialistObject.swift */; };
+		30C20B4C2697029E0098DD0F /* Valuecolor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C20B4B2697029E0098DD0F /* Valuecolor.swift */; };
+		30C20B6A26970A560098DD0F /* FormObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C20B6926970A560098DD0F /* FormObject.swift */; };
+		30C20B6E26970B2E0098DD0F /* detailklinikViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C20B6D26970B2E0098DD0F /* detailklinikViewController.swift */; };
+		30C20B7226970BF00098DD0F /* Tanyadokter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C20B7126970BF00098DD0F /* Tanyadokter.storyboard */; };
+		30C20B7726970CB90098DD0F /* DetailtanyadokterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C20B7626970CB90098DD0F /* DetailtanyadokterViewController.swift */; };
+		30C20B7E2697109D0098DD0F /* selectedfilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C20B7D2697109D0098DD0F /* selectedfilterCollectionViewCell.swift */; };
+		30C20B82269711110098DD0F /* DetailtanyadoktercellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C20B81269711110098DD0F /* DetailtanyadoktercellTableViewCell.swift */; };
+		30C20B86269711600098DD0F /* filerdokterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C20B85269711600098DD0F /* filerdokterViewController.swift */; };
+		30CCF96426D5E68B00A9285D /* PembayaranobatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CCF96326D5E68B00A9285D /* PembayaranobatViewController.swift */; };
+		30CCF96E26D61DE300A9285D /* cellpembayaranobatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CCF96D26D61DE300A9285D /* cellpembayaranobatTableViewCell.swift */; };
+		30EC592327421F80003AB8B7 /* loading_rainbow.json in Resources */ = {isa = PBXBuildFile; fileRef = 30EC592227421F80003AB8B7 /* loading_rainbow.json */; };
+		30ED87182744E0D7000376E6 /* NewCheckConsulVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ED87172744E0D7000376E6 /* NewCheckConsulVC.swift */; };
+		30EDF6E62696B33400A08A37 /* transmedik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EDF6DC2696B33300A08A37 /* transmedik.framework */; };
+		30EDF6EB2696B33400A08A37 /* transmedikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EDF6EA2696B33400A08A37 /* transmedikTests.swift */; };
+		30EDF6ED2696B33400A08A37 /* transmedik.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EDF6DF2696B33300A08A37 /* transmedik.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30EDF7432696B8E200A08A37 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EDF7422696B8E200A08A37 /* AppSettings.swift */; };
+		30EDF74B2696BC1100A08A37 /* Fasilitaskesehatan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30EDF74A2696BC1100A08A37 /* Fasilitaskesehatan.storyboard */; };
+		6383E1E6E14F5B902455402E /* Pods_transmedik_transmedikTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDF9D2652F2AC0B3E7AFD9A /* Pods_transmedik_transmedikTests.framework */; };
+		A83F32E43B9A26739003811A /* Pods_transmedik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C421827579211D0B47D924D /* Pods_transmedik.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30EDF6E72696B33400A08A37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30EDF6D32696B33300A08A37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30EDF6DB2696B33300A08A37;
+			remoteInfo = transmedik;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DCCBF5333A5F00C0071DA44 /* Pods-transmedik-transmedikTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transmedik-transmedikTests.debug.xcconfig"; path = "Target Support Files/Pods-transmedik-transmedikTests/Pods-transmedik-transmedikTests.debug.xcconfig"; sourceTree = "<group>"; };
+		300BC278269821CD009F0AC6 /* filterdokterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filterdokterTableViewCell.swift; sourceTree = "<group>"; };
+		300BC27C26982453009F0AC6 /* Profiledokter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profiledokter.storyboard; sourceTree = "<group>"; };
+		300BC281269824BC009F0AC6 /* profiledoktermasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profiledoktermasterViewController.swift; sourceTree = "<group>"; };
+		300BC28726982587009F0AC6 /* Doktersobject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doktersobject.swift; sourceTree = "<group>"; };
+		300BC28B26982643009F0AC6 /* profiledokterchildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profiledokterchildViewController.swift; sourceTree = "<group>"; };
+		300BC28F269826EB009F0AC6 /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
+		300BC29426982B7A009F0AC6 /* transaksichatchildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transaksichatchildViewController.swift; sourceTree = "<group>"; };
+		300BC2A226982FAD009F0AC6 /* Voucherobject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voucherobject.swift; sourceTree = "<group>"; };
+		300BC2AA269830F7009F0AC6 /* paymentobject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymentobject.swift; sourceTree = "<group>"; };
+		300BC2BE26983CBE009F0AC6 /* Count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count.swift; sourceTree = "<group>"; };
+		300BC2C826983D70009F0AC6 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		300BC2E126983F27009F0AC6 /* balanceobject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = balanceobject.swift; sourceTree = "<group>"; };
+		300BC2E526983FDC009F0AC6 /* Loading.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Loading.storyboard; sourceTree = "<group>"; };
+		300BC2EA26983FF9009F0AC6 /* lodingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lodingViewController.swift; sourceTree = "<group>"; };
+		300BC2FE269842FA009F0AC6 /* transaksichatmasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transaksichatmasterViewController.swift; sourceTree = "<group>"; };
+		300BC30226984349009F0AC6 /* ProfileObjcect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileObjcect.swift; sourceTree = "<group>"; };
+		300BC30726984BA4009F0AC6 /* edit_and_add_phrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = edit_and_add_phrViewController.swift; sourceTree = "<group>"; };
+		300BC30C269876B2009F0AC6 /* editphrbadanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editphrbadanTableViewCell.swift; sourceTree = "<group>"; };
+		300BC310269877B4009F0AC6 /* Form.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Form.storyboard; sourceTree = "<group>"; };
+		300BC3152698784E009F0AC6 /* formsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formsViewController.swift; sourceTree = "<group>"; };
+		300BC31B2698788C009F0AC6 /* form_pertanyaan_delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = form_pertanyaan_delegate.swift; sourceTree = "<group>"; };
+		3010290626AFE354002D1F92 /* Form.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Form.storyboard; sourceTree = "<group>"; };
+		3010292026AFEC13002D1F92 /* Edituser.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Edituser.storyboard; sourceTree = "<group>"; };
+		3010292626AFECB8002D1F92 /* EdituserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdituserViewController.swift; sourceTree = "<group>"; };
+		3020165926A962F900EFC78A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3020165F26A9633000EFC78A /* DetailtanyadoktercellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailtanyadoktercellTableViewCell.xib; sourceTree = "<group>"; };
+		3020166526A9648100EFC78A /* LoadingDetailtanyadoktercellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingDetailtanyadoktercellTableViewCell.xib; sourceTree = "<group>"; };
+		3020166B26A9656B00EFC78A /* selectedfilterCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = selectedfilterCollectionViewCell.xib; sourceTree = "<group>"; };
+		3025E2052699442C006C07FC /* formpertanyaanselectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formpertanyaanselectionTableViewCell.swift; sourceTree = "<group>"; };
+		3025E20A26994461006C07FC /* formpertanyaantextfieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formpertanyaantextfieldTableViewCell.swift; sourceTree = "<group>"; };
+		3025E2102699447E006C07FC /* formpertanyaandateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formpertanyaandateTableViewCell.swift; sourceTree = "<group>"; };
+		3025E2142699463B006C07FC /* formpertanyaanbuttonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formpertanyaanbuttonTableViewCell.swift; sourceTree = "<group>"; };
+		3025E21826994659006C07FC /* formtextareaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formtextareaTableViewCell.swift; sourceTree = "<group>"; };
+		3025E21C26994674006C07FC /* celljawabanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celljawabanTableViewCell.swift; sourceTree = "<group>"; };
+		3025E220269948BC006C07FC /* cellotherpertanyaanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellotherpertanyaanTableViewCell.swift; sourceTree = "<group>"; };
+		3025E224269948DA006C07FC /* cellvaluepertanyaanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellvaluepertanyaanTableViewCell.swift; sourceTree = "<group>"; };
+		30279C4326AE53E20075B53A /* Categoryobat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Categoryobat.storyboard; sourceTree = "<group>"; };
+		30279C4926AE54670075B53A /* includevoucherobatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = includevoucherobatViewController.swift; sourceTree = "<group>"; };
+		30279C4F26AE55FE0075B53A /* pinandpassword.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = pinandpassword.storyboard; sourceTree = "<group>"; };
+		30279C5626AE56470075B53A /* insertpinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = insertpinViewController.swift; sourceTree = "<group>"; };
+		30279C7F26AE5BF20075B53A /* Notification.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Notification.storyboard; sourceTree = "<group>"; };
+		30279C8726AE5C200075B53A /* loadingsuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loadingsuccessViewController.swift; sourceTree = "<group>"; };
+		30279C9426AE5D060075B53A /* Webviews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Webviews.storyboard; sourceTree = "<group>"; };
+		30279C9A26AE5D540075B53A /* OpenpdfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenpdfViewController.swift; sourceTree = "<group>"; };
+		30279CA126AE5FA50075B53A /* DetailChatViewController+MessageKitExrtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DetailChatViewController+MessageKitExrtension.swift"; sourceTree = "<group>"; };
+		30279CA226AE5FA50075B53A /* DetailChatViewController+DataExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DetailChatViewController+DataExtension.swift"; sourceTree = "<group>"; };
+		30279CA426AE5FA50075B53A /* ConsultWaitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultWaitController.swift; sourceTree = "<group>"; };
+		30279CA526AE5FA50075B53A /* DetailChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailChatViewController.swift; sourceTree = "<group>"; };
+		30279CDD26AE60C00075B53A /* UIResepTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIResepTableViewCell.swift; sourceTree = "<group>"; };
+		30279CDE26AE60C00075B53A /* UIResepStaticTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIResepStaticTableViewCell.swift; sourceTree = "<group>"; };
+		30279CDF26AE60C00075B53A /* ChatTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTitleView.swift; sourceTree = "<group>"; };
+		30279CE026AE60C00075B53A /* PasienInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasienInfoView.swift; sourceTree = "<group>"; };
+		30279CE126AE60C00075B53A /* ExChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExChat.swift; sourceTree = "<group>"; };
+		30279CE226AE60C00075B53A /* ExChat.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExChat.xib; sourceTree = "<group>"; };
+		30279CE426AE60C00075B53A /* newexchat.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = newexchat.xib; sourceTree = "<group>"; };
+		30279CE526AE60C00075B53A /* newexchat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newexchat.swift; sourceTree = "<group>"; };
+		30279CE626AE60C00075B53A /* DoctorInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorInfoView.swift; sourceTree = "<group>"; };
+		30279D1A26AE61960075B53A /* MediaOnlyMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaOnlyMessageCell.swift; sourceTree = "<group>"; };
+		30279D1B26AE61960075B53A /* TextWithFourMediaMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextWithFourMediaMessageCell.swift; sourceTree = "<group>"; };
+		30279D1C26AE61960075B53A /* OneMediaOnlyMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneMediaOnlyMessageCell.swift; sourceTree = "<group>"; };
+		30279D1D26AE61960075B53A /* TextWithTwoMediaMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextWithTwoMediaMessageCell.swift; sourceTree = "<group>"; };
+		30279D1E26AE61960075B53A /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		30279D1F26AE61960075B53A /* TextWithOneMediaMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextWithOneMediaMessageCell.swift; sourceTree = "<group>"; };
+		30279D2026AE61960075B53A /* FourMediaOnlyMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourMediaOnlyMessageCell.swift; sourceTree = "<group>"; };
+		30279D2126AE61960075B53A /* TwoMediaOnlyMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoMediaOnlyMessageCell.swift; sourceTree = "<group>"; };
+		30279D2226AE61960075B53A /* TextWithThreeMediaMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextWithThreeMediaMessageCell.swift; sourceTree = "<group>"; };
+		30279D2326AE61960075B53A /* Imageloadmessagecell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Imageloadmessagecell.swift; sourceTree = "<group>"; };
+		30279D2426AE61960075B53A /* PHRMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHRMessageCell.swift; sourceTree = "<group>"; };
+		30279D2526AE61960075B53A /* TypingBubble+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TypingBubble+Extensions.swift"; sourceTree = "<group>"; };
+		30279D2626AE61960075B53A /* ResepDokterMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResepDokterMessageCell.swift; sourceTree = "<group>"; };
+		30279D2726AE61960075B53A /* UrlMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlMessageCell.swift; sourceTree = "<group>"; };
+		30279D2826AE61960075B53A /* CatatanMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatatanMessageCell.swift; sourceTree = "<group>"; };
+		30279D2926AE61960075B53A /* ThreeMediaOnlyMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeMediaOnlyMessageCell.swift; sourceTree = "<group>"; };
+		30279D2A26AE61960075B53A /* TextWithMediaMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextWithMediaMessageCell.swift; sourceTree = "<group>"; };
+		30279D2C26AE61960075B53A /* MediaOnlyMessageSizeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaOnlyMessageSizeCalculator.swift; sourceTree = "<group>"; };
+		30279D2D26AE61960075B53A /* CatatanMessageSizeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatatanMessageSizeCalculator.swift; sourceTree = "<group>"; };
+		30279D2E26AE61960075B53A /* ImageloadMessageSizeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageloadMessageSizeCalculator.swift; sourceTree = "<group>"; };
+		30279D2F26AE61960075B53A /* ResepDokterMessageSizeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResepDokterMessageSizeCalculator.swift; sourceTree = "<group>"; };
+		30279D3026AE61960075B53A /* TextWithMediaMessageSizeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextWithMediaMessageSizeCalculator.swift; sourceTree = "<group>"; };
+		30279D3126AE61960075B53A /* UrlMessageSizeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlMessageSizeCalculator.swift; sourceTree = "<group>"; };
+		30279D3226AE61960075B53A /* PHRMessageSizeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHRMessageSizeCalculator.swift; sourceTree = "<group>"; };
+		30279D3326AE61960075B53A /* CustomMessagesFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMessagesFlowLayout.swift; sourceTree = "<group>"; };
+		30279D3426AE61960075B53A /* MYUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MYUIViewController.swift; sourceTree = "<group>"; };
+		30279D5426AE61A00075B53A /* LocalizationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationHelper.swift; sourceTree = "<group>"; };
+		30279D5626AE61A00075B53A /* LocalizationEN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationEN.swift; sourceTree = "<group>"; };
+		30279D5726AE61A00075B53A /* CalendarEventHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarEventHelper.swift; sourceTree = "<group>"; };
+		30279D5926AE61A00075B53A /* ScreenSizeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenSizeHelper.swift; sourceTree = "<group>"; };
+		30279D6426AE61AB0075B53A /* LightModeColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightModeColors.swift; sourceTree = "<group>"; };
+		30279D6526AE61AB0075B53A /* DarkModeColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkModeColors.swift; sourceTree = "<group>"; };
+		30279D6626AE61AB0075B53A /* AppColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		30279D6726AE61AB0075B53A /* DefaultColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultColors.swift; sourceTree = "<group>"; };
+		30279E9A26AE6F800075B53A /* BasicAudioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicAudioController.swift; sourceTree = "<group>"; };
+		30279E9C26AE6F800075B53A /* CatatanDokterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatatanDokterViewController.swift; sourceTree = "<group>"; };
+		30279EA526AE701D0075B53A /* Navi.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Navi.xib; sourceTree = "<group>"; };
+		30279EA626AE701D0075B53A /* Notifserverdown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifserverdown.swift; sourceTree = "<group>"; };
+		30279EA726AE701D0075B53A /* Navi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navi.swift; sourceTree = "<group>"; };
+		30279EA826AE701D0075B53A /* Notifserverdown.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Notifserverdown.xib; sourceTree = "<group>"; };
+		30279EB226AE707A0075B53A /* sizeimageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sizeimageViewController.swift; sourceTree = "<group>"; };
+		30279EB826AE709B0075B53A /* Sizeimage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sizeimage.storyboard; sourceTree = "<group>"; };
+		30279EBE26AE71E50075B53A /* extensionchatdetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensionchatdetailViewController.swift; sourceTree = "<group>"; };
+		30279ECA26AE72950075B53A /* FormjawabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormjawabViewController.swift; sourceTree = "<group>"; };
+		30279ECB26AE72950075B53A /* formklinikViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = formklinikViewController.swift; sourceTree = "<group>"; };
+		30279ED226AE74C20075B53A /* notifViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notifViewController.swift; sourceTree = "<group>"; };
+		30279F4726AE9FF70075B53A /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		30279F4826AE9FF70075B53A /* uiview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uiview.swift; sourceTree = "<group>"; };
+		30279F4926AE9FF70075B53A /* UICustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICustomNavigationBar.swift; sourceTree = "<group>"; };
+		30279F4A26AE9FF70075B53A /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		30279F4B26AE9FF70075B53A /* UIBadgeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBadgeLabel.swift; sourceTree = "<group>"; };
+		30279F4C26AE9FF70075B53A /* Internetconnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Internetconnection.swift; sourceTree = "<group>"; };
+		30279F4D26AE9FF70075B53A /* UIEdgeInsets+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Extensions.swift"; sourceTree = "<group>"; };
+		30279F4E26AE9FF70075B53A /* texfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = texfield.swift; sourceTree = "<group>"; };
+		30279F5026AE9FF70075B53A /* UIIMage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIIMage+Extensions.swift"; sourceTree = "<group>"; };
+		30279F5126AE9FF70075B53A /* UIPrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPrimaryButton.swift; sourceTree = "<group>"; };
+		30279F5226AE9FF70075B53A /* Dashline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dashline.swift; sourceTree = "<group>"; };
+		30279F5326AE9FF70075B53A /* UITealButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITealButton.swift; sourceTree = "<group>"; };
+		30279F5426AE9FF70075B53A /* UICheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICheckBox.swift; sourceTree = "<group>"; };
+		30279F5526AE9FF70075B53A /* shadownavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shadownavigation.swift; sourceTree = "<group>"; };
+		30279F5626AE9FF70075B53A /* doubl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = doubl.swift; sourceTree = "<group>"; };
+		30279F5726AE9FF70075B53A /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		30279F5826AE9FF70075B53A /* Multiformdata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Multiformdata.swift; sourceTree = "<group>"; };
+		30279F5926AE9FF70075B53A /* Htmltostring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Htmltostring.swift; sourceTree = "<group>"; };
+		30279F5A26AE9FF70075B53A /* string.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = string.swift; sourceTree = "<group>"; };
+		30279F5B26AE9FF70075B53A /* Capital.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Capital.swift; sourceTree = "<group>"; };
+		30279F5C26AE9FF70075B53A /* imageresize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageresize.swift; sourceTree = "<group>"; };
+		30279F5D26AE9FF70075B53A /* backgroundgradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = backgroundgradient.swift; sourceTree = "<group>"; };
+		30279F5E26AE9FF70075B53A /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		30279F5F26AE9FF70075B53A /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		30279F6026AE9FF70075B53A /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		30279F8826AEA0DF0075B53A /* Modelpmr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modelpmr.swift; sourceTree = "<group>"; };
+		30279F8926AEA0DF0075B53A /* Modeltanyadokter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modeltanyadokter.swift; sourceTree = "<group>"; };
+		30279F8A26AEA0DF0075B53A /* passingontabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = passingontabbar.swift; sourceTree = "<group>"; };
+		30279F8C26AEA0DF0075B53A /* ConsultationPostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultationPostModel.swift; sourceTree = "<group>"; };
+		30279F8D26AEA0DF0075B53A /* ConsultationUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultationUserModel.swift; sourceTree = "<group>"; };
+		30279F8E26AEA0DF0075B53A /* Martikel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Martikel.swift; sourceTree = "<group>"; };
+		30279F8F26AEA0DF0075B53A /* modelform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modelform.swift; sourceTree = "<group>"; };
+		30279F9026AEA0DF0075B53A /* Modeldetailtanyadokter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modeldetailtanyadokter.swift; sourceTree = "<group>"; };
+		30279F9226AEA0DF0075B53A /* ConversationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationModel.swift; sourceTree = "<group>"; };
+		30279F9326AEA0DF0075B53A /* ChatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		30279F9426AEA0DF0075B53A /* ConsultationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultationModel.swift; sourceTree = "<group>"; };
+		30279F9626AEA0DF0075B53A /* MockMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockMessage.swift; sourceTree = "<group>"; };
+		30279F9726AEA0DF0075B53A /* MockMessageItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockMessageItems.swift; sourceTree = "<group>"; };
+		30279F9826AEA0DF0075B53A /* MockUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockUser.swift; sourceTree = "<group>"; };
+		30279F9926AEA0DF0075B53A /* modelpayment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modelpayment.swift; sourceTree = "<group>"; };
+		30279F9A26AEA0DF0075B53A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		30279F9B26AEA0DF0075B53A /* ModelHistories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelHistories.swift; sourceTree = "<group>"; };
+		30279F9C26AEA0DF0075B53A /* Fasilitaskesehatanmodel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fasilitaskesehatanmodel.swift; sourceTree = "<group>"; };
+		30279F9D26AEA0DF0075B53A /* sale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sale.swift; sourceTree = "<group>"; };
+		30279F9E26AEA0DF0075B53A /* MAdvertisement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAdvertisement.swift; sourceTree = "<group>"; };
+		30279F9F26AEA0DF0075B53A /* ModelProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelProfile.swift; sourceTree = "<group>"; };
+		30279FA026AEA0DF0075B53A /* MNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNotification.swift; sourceTree = "<group>"; };
+		30279FA126AEA0DF0075B53A /* Kategori.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kategori.swift; sourceTree = "<group>"; };
+		30279FA326AEA0DF0075B53A /* Pesannotif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pesannotif.swift; sourceTree = "<group>"; };
+		30279FA426AEA0DF0075B53A /* Modelorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modelorder.swift; sourceTree = "<group>"; };
+		30279FA526AEA0DF0075B53A /* ModelVoucer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelVoucer.swift; sourceTree = "<group>"; };
+		30279FA626AEA0DF0075B53A /* Mbalance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mbalance.swift; sourceTree = "<group>"; };
+		30279FA726AEA0DF0075B53A /* Mresepobat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mresepobat.swift; sourceTree = "<group>"; };
+		30279FA826AEA0DF0075B53A /* Adds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adds.swift; sourceTree = "<group>"; };
+		30279FA926AEA0DF0075B53A /* ModelPHR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelPHR.swift; sourceTree = "<group>"; };
+		30279FAA26AEA0DF0075B53A /* AlamatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamatModel.swift; sourceTree = "<group>"; };
+		30279FD726AEA2CE0075B53A /* MObat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MObat.swift; sourceTree = "<group>"; };
+		30279FE126AEA7850075B53A /* ResepDokterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResepDokterViewController.swift; sourceTree = "<group>"; };
+		30279FE726AEA81A0075B53A /* resepdigitalobject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resepdigitalobject.swift; sourceTree = "<group>"; };
+		3028F152269BEF0E00204CDC /* Transmedik.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transmedik.swift; sourceTree = "<group>"; };
+		303092BC26D4B055007553B5 /* Getprice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Getprice.swift; sourceTree = "<group>"; };
+		303092C826D4CF61007553B5 /* ListcourTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListcourTableViewCell.swift; sourceTree = "<group>"; };
+		3033985227474E0E004557FF /* TanyaDokterListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanyaDokterListTableViewCell.swift; sourceTree = "<group>"; };
+		3033985327474E0E004557FF /* TanyaDokterListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TanyaDokterListTableViewCell.xib; sourceTree = "<group>"; };
+		3047ABFD26A9278700704C53 /* Manage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manage.swift; sourceTree = "<group>"; };
+		3047AC5226A92B7500704C53 /* fasilitaskesehatanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fasilitaskesehatanVC.swift; sourceTree = "<group>"; };
+		3047AC5326A92B7500704C53 /* fasilitaskesehatanVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = fasilitaskesehatanVC.xib; sourceTree = "<group>"; };
+		304ECC2E26CAA12400318AD7 /* Alamat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alamat.storyboard; sourceTree = "<group>"; };
+		304ECC3526CAA25D00318AD7 /* listalamatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listalamatViewController.swift; sourceTree = "<group>"; };
+		304ECC3B26CAA68F00318AD7 /* MapviewalamatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapviewalamatViewController.swift; sourceTree = "<group>"; };
+		304ECC7A26CAA72100318AD7 /* Alamat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamat.swift; sourceTree = "<group>"; };
+		304ECC8426CAAFFA00318AD7 /* NotificationcustomizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationcustomizeViewController.swift; sourceTree = "<group>"; };
+		305A58CB269F3CD600097C27 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3063853F27587DA0004F4F12 /* NewTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTrackingViewController.swift; sourceTree = "<group>"; };
+		3065E4DB26B10969009E4F8F /* History.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
+		3065E4E226B10A46009E4F8F /* historypembelianViewControllerdelegatetochild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historypembelianViewControllerdelegatetochild.swift; sourceTree = "<group>"; };
+		3065E4EC26B10A64009E4F8F /* childhistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = childhistoryViewController.swift; sourceTree = "<group>"; };
+		3065E4F326B10B9E009E4F8F /* historiescellkonsulTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historiescellkonsulTableViewCell.swift; sourceTree = "<group>"; };
+		3065E50326B10DC2009E4F8F /* Obat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obat.swift; sourceTree = "<group>"; };
+		3065E50926B10E9C009E4F8F /* history.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = history.swift; sourceTree = "<group>"; };
+		3065E53126B11AA3009E4F8F /* keluhanpesananobatcollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keluhanpesananobatcollCell.swift; sourceTree = "<group>"; };
+		3065E55126B11C2A009E4F8F /* ratingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ratingViewController.swift; sourceTree = "<group>"; };
+		3065E55726B11C51009E4F8F /* ratingobject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ratingobject.swift; sourceTree = "<group>"; };
+		3065E55E26B12CE7009E4F8F /* ratingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ratingCollectionViewCell.swift; sourceTree = "<group>"; };
+		3065E56A26B12F5C009E4F8F /* Transmedik.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Transmedik.storyboard; sourceTree = "<group>"; };
+		3065E57026B130DF009E4F8F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3065E57626B133FB009E4F8F /* cellmenuinhomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellmenuinhomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		3075498D274B80BA00D80534 /* WaitingConsulVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingConsulVC.swift; sourceTree = "<group>"; };
+		3076E38D26E5E9C00024506E /* ResepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResepViewController.swift; sourceTree = "<group>"; };
+		3076E39426E5FDF70024506E /* resepcellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resepcellTableViewCell.swift; sourceTree = "<group>"; };
+		30959721275770FF0029F2AF /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		30959722275770FF0029F2AF /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		30959723275770FF0029F2AF /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		30959724275770FF0029F2AF /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		30959725275770FF0029F2AF /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		30959726275770FF0029F2AF /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		30959727275770FF0029F2AF /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		30959728275770FF0029F2AF /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		30959729275770FF0029F2AF /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		3095972A275770FF0029F2AF /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		3095972B275770FF0029F2AF /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		3095972C275770FF0029F2AF /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		3095972D275770FF0029F2AF /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		309D0C9926B1474F000760ED /* rating.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = rating.storyboard; sourceTree = "<group>"; };
+		309E17BB26E70F400092971C /* ResepObatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResepObatTableViewCell.swift; sourceTree = "<group>"; };
+		309E17BC26E70F400092971C /* ResepObatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResepObatTableViewCell.xib; sourceTree = "<group>"; };
+		30A0130026CCC18C0018B046 /* listalamatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listalamatTableViewCell.swift; sourceTree = "<group>"; };
+		30A0130A26CCC2370018B046 /* celltypealamatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celltypealamatCollectionViewCell.swift; sourceTree = "<group>"; };
+		30A0131E26CCC9520018B046 /* Resepobatmod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resepobatmod.swift; sourceTree = "<group>"; };
+		30A399B426D23EA600D09D06 /* historiescellobatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historiescellobatTableViewCell.swift; sourceTree = "<group>"; };
+		30A399C226D27D1100D09D06 /* Ordertracking.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ordertracking.storyboard; sourceTree = "<group>"; };
+		30A399C926D27D6D00D09D06 /* ordertrackingtransaksi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ordertrackingtransaksi.swift; sourceTree = "<group>"; };
+		30A399DF26D27FFD00D09D06 /* ordertrackingtransaksiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ordertrackingtransaksiTableViewCell.swift; sourceTree = "<group>"; };
+		30A399E526D280DC00D09D06 /* Orderobject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orderobject.swift; sourceTree = "<group>"; };
+		30A399EB26D2837200D09D06 /* checkorderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkorderCollectionViewCell.swift; sourceTree = "<group>"; };
+		30A399F126D2839700D09D06 /* checkkeluhanorderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkkeluhanorderCollectionViewCell.swift; sourceTree = "<group>"; };
+		30A4AE3626A93AA8002E2C66 /* FaskessCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaskessCollectionViewCell.swift; sourceTree = "<group>"; };
+		30A4AE3726A93AA8002E2C66 /* FaskessCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FaskessCollectionViewCell.xib; sourceTree = "<group>"; };
+		30A4AEAD26A947F5002E2C66 /* detailklinikVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailklinikVc.swift; sourceTree = "<group>"; };
+		30A4AEAE26A947F5002E2C66 /* detailklinikVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = detailklinikVc.xib; sourceTree = "<group>"; };
+		30B7C05126AA7A7500B56D10 /* database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = database.xcdatamodel; sourceTree = "<group>"; };
+		30B7C05726AA7F6700B56D10 /* CoreManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreManage.swift; sourceTree = "<group>"; };
+		30B7C06526AA9DAC00B56D10 /* Pembayaran.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Pembayaran.storyboard; sourceTree = "<group>"; };
+		30B7C06C26AA9DCC00B56D10 /* metoderpembayaranViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = metoderpembayaranViewController.swift; sourceTree = "<group>"; };
+		30B7C07326AA9E3300B56D10 /* pembayaranselectedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pembayaranselectedTableViewCell.swift; sourceTree = "<group>"; };
+		30B8472626C2416400D8DC61 /* Newform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Newform.swift; sourceTree = "<group>"; };
+		30B8474626C25E3D00D8DC61 /* Orderobat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Orderobat.storyboard; sourceTree = "<group>"; };
+		30B8474D26C2603700D8DC61 /* OrderobatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderobatViewController.swift; sourceTree = "<group>"; };
+		30B8475426C2618A00D8DC61 /* cartobatpriceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartobatpriceTableViewCell.swift; sourceTree = "<group>"; };
+		30B8475A26C2630900D8DC61 /* OrderObat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderObat.swift; sourceTree = "<group>"; };
+		30B9E3682745FC4A003B77E8 /* NewProfileDokterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProfileDokterVC.swift; sourceTree = "<group>"; };
+		30C20A5B2696DE210098DD0F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C20B302696FF3B0098DD0F /* fasilitaskesehatanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fasilitaskesehatanViewController.swift; sourceTree = "<group>"; };
+		30C20B3F269701400098DD0F /* FaskesObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaskesObject.swift; sourceTree = "<group>"; };
+		30C20B47269702300098DD0F /* SpecialistObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialistObject.swift; sourceTree = "<group>"; };
+		30C20B4B2697029E0098DD0F /* Valuecolor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Valuecolor.swift; sourceTree = "<group>"; };
+		30C20B6926970A560098DD0F /* FormObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormObject.swift; sourceTree = "<group>"; };
+		30C20B6D26970B2E0098DD0F /* detailklinikViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailklinikViewController.swift; sourceTree = "<group>"; };
+		30C20B7126970BF00098DD0F /* Tanyadokter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tanyadokter.storyboard; sourceTree = "<group>"; };
+		30C20B7626970CB90098DD0F /* DetailtanyadokterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailtanyadokterViewController.swift; sourceTree = "<group>"; };
+		30C20B7D2697109D0098DD0F /* selectedfilterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectedfilterCollectionViewCell.swift; sourceTree = "<group>"; };
+		30C20B81269711110098DD0F /* DetailtanyadoktercellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailtanyadoktercellTableViewCell.swift; sourceTree = "<group>"; };
+		30C20B85269711600098DD0F /* filerdokterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filerdokterViewController.swift; sourceTree = "<group>"; };
+		30CCF96326D5E68B00A9285D /* PembayaranobatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PembayaranobatViewController.swift; sourceTree = "<group>"; };
+		30CCF96D26D61DE300A9285D /* cellpembayaranobatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellpembayaranobatTableViewCell.swift; sourceTree = "<group>"; };
+		30EC592227421F80003AB8B7 /* loading_rainbow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading_rainbow.json; sourceTree = "<group>"; };
+		30ED87172744E0D7000376E6 /* NewCheckConsulVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCheckConsulVC.swift; sourceTree = "<group>"; };
+		30EDF6DC2696B33300A08A37 /* transmedik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = transmedik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EDF6DF2696B33300A08A37 /* transmedik.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = transmedik.h; sourceTree = "<group>"; };
+		30EDF6E02696B33300A08A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30EDF6E52696B33400A08A37 /* transmedikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = transmedikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EDF6EA2696B33400A08A37 /* transmedikTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transmedikTests.swift; sourceTree = "<group>"; };
+		30EDF6EC2696B33400A08A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30EDF7422696B8E200A08A37 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		30EDF74A2696BC1100A08A37 /* Fasilitaskesehatan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Fasilitaskesehatan.storyboard; sourceTree = "<group>"; };
+		6D09C37EB4E607304B967391 /* Pods-transmedik-transmedikTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transmedik-transmedikTests.release.xcconfig"; path = "Target Support Files/Pods-transmedik-transmedikTests/Pods-transmedik-transmedikTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C421827579211D0B47D924D /* Pods_transmedik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_transmedik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FDF9D2652F2AC0B3E7AFD9A /* Pods_transmedik_transmedikTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_transmedik_transmedikTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B374D9083C4F499ABB1F3EFC /* Pods-transmedik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transmedik.debug.xcconfig"; path = "Target Support Files/Pods-transmedik/Pods-transmedik.debug.xcconfig"; sourceTree = "<group>"; };
+		D646FC4A7856FE6B168134B5 /* Pods-transmedik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transmedik.release.xcconfig"; path = "Target Support Files/Pods-transmedik/Pods-transmedik.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30EDF6D92696B33300A08A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83F32E43B9A26739003811A /* Pods_transmedik.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EDF6E22696B33400A08A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EDF6E62696B33400A08A37 /* transmedik.framework in Frameworks */,
+				6383E1E6E14F5B902455402E /* Pods_transmedik_transmedikTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		300BC280269824AE009F0AC6 /* Profiledokter */ = {
+			isa = PBXGroup;
+			children = (
+				300BC281269824BC009F0AC6 /* profiledoktermasterViewController.swift */,
+				300BC28B26982643009F0AC6 /* profiledokterchildViewController.swift */,
+				30B9E3682745FC4A003B77E8 /* NewProfileDokterVC.swift */,
+			);
+			path = Profiledokter;
+			sourceTree = "<group>";
+		};
+		300BC29326982B50009F0AC6 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				30ED87172744E0D7000376E6 /* NewCheckConsulVC.swift */,
+				30279FE126AEA7850075B53A /* ResepDokterViewController.swift */,
+				30279E9A26AE6F800075B53A /* BasicAudioController.swift */,
+				30279E9C26AE6F800075B53A /* CatatanDokterViewController.swift */,
+				30279CA426AE5FA50075B53A /* ConsultWaitController.swift */,
+				30279CA526AE5FA50075B53A /* DetailChatViewController.swift */,
+				30279CA026AE5FA50075B53A /* Extensions */,
+				300BC29426982B7A009F0AC6 /* transaksichatchildViewController.swift */,
+				300BC2FE269842FA009F0AC6 /* transaksichatmasterViewController.swift */,
+				3076E38D26E5E9C00024506E /* ResepViewController.swift */,
+				3075498D274B80BA00D80534 /* WaitingConsulVC.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		300BC2E926983FE4009F0AC6 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				300BC2EA26983FF9009F0AC6 /* lodingViewController.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		300BC30626984B95009F0AC6 /* Editprofile */ = {
+			isa = PBXGroup;
+			children = (
+				300BC30726984BA4009F0AC6 /* edit_and_add_phrViewController.swift */,
+			);
+			path = Editprofile;
+			sourceTree = "<group>";
+		};
+		300BC30B269876A5009F0AC6 /* Editdata */ = {
+			isa = PBXGroup;
+			children = (
+				300BC30C269876B2009F0AC6 /* editphrbadanTableViewCell.swift */,
+			);
+			path = Editdata;
+			sourceTree = "<group>";
+		};
+		300BC3142698780C009F0AC6 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				30279ECA26AE72950075B53A /* FormjawabViewController.swift */,
+				30279ECB26AE72950075B53A /* formklinikViewController.swift */,
+				300BC3152698784E009F0AC6 /* formsViewController.swift */,
+				300BC31B2698788C009F0AC6 /* form_pertanyaan_delegate.swift */,
+				30B8472626C2416400D8DC61 /* Newform.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		3025E20926994439006C07FC /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				3025E2052699442C006C07FC /* formpertanyaanselectionTableViewCell.swift */,
+				3025E20A26994461006C07FC /* formpertanyaantextfieldTableViewCell.swift */,
+				3025E2102699447E006C07FC /* formpertanyaandateTableViewCell.swift */,
+				3025E2142699463B006C07FC /* formpertanyaanbuttonTableViewCell.swift */,
+				3025E21826994659006C07FC /* formtextareaTableViewCell.swift */,
+				3025E21C26994674006C07FC /* celljawabanTableViewCell.swift */,
+				3025E220269948BC006C07FC /* cellotherpertanyaanTableViewCell.swift */,
+				3025E224269948DA006C07FC /* cellvaluepertanyaanTableViewCell.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		30279C5526AE56340075B53A /* pin */ = {
+			isa = PBXGroup;
+			children = (
+				30279C5626AE56470075B53A /* insertpinViewController.swift */,
+			);
+			path = pin;
+			sourceTree = "<group>";
+		};
+		30279C8526AE5C200075B53A /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				30279C8726AE5C200075B53A /* loadingsuccessViewController.swift */,
+				304ECC8426CAAFFA00318AD7 /* NotificationcustomizeViewController.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		30279CA026AE5FA50075B53A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				30279EBE26AE71E50075B53A /* extensionchatdetailViewController.swift */,
+				30279CA126AE5FA50075B53A /* DetailChatViewController+MessageKitExrtension.swift */,
+				30279CA226AE5FA50075B53A /* DetailChatViewController+DataExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		30279CDC26AE60C00075B53A /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				30279CDD26AE60C00075B53A /* UIResepTableViewCell.swift */,
+				30279CDE26AE60C00075B53A /* UIResepStaticTableViewCell.swift */,
+				30279CDF26AE60C00075B53A /* ChatTitleView.swift */,
+				30279CE026AE60C00075B53A /* PasienInfoView.swift */,
+				30279CE126AE60C00075B53A /* ExChat.swift */,
+				30279CE226AE60C00075B53A /* ExChat.xib */,
+				30279CE326AE60C00075B53A /* newexchat */,
+				30279CE626AE60C00075B53A /* DoctorInfoView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		30279CE326AE60C00075B53A /* newexchat */ = {
+			isa = PBXGroup;
+			children = (
+				30279CE426AE60C00075B53A /* newexchat.xib */,
+				30279CE526AE60C00075B53A /* newexchat.swift */,
+			);
+			path = newexchat;
+			sourceTree = "<group>";
+		};
+		30279D1726AE61960075B53A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				30279D1826AE61960075B53A /* MessageKit */,
+				30279D3426AE61960075B53A /* MYUIViewController.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		30279D1826AE61960075B53A /* MessageKit */ = {
+			isa = PBXGroup;
+			children = (
+				30279D1926AE61960075B53A /* CustomCells */,
+				30279D2B26AE61960075B53A /* CustomCalculators */,
+				30279D3326AE61960075B53A /* CustomMessagesFlowLayout.swift */,
+			);
+			path = MessageKit;
+			sourceTree = "<group>";
+		};
+		30279D1926AE61960075B53A /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				30279D1A26AE61960075B53A /* MediaOnlyMessageCell.swift */,
+				30279D1B26AE61960075B53A /* TextWithFourMediaMessageCell.swift */,
+				30279D1C26AE61960075B53A /* OneMediaOnlyMessageCell.swift */,
+				30279D1D26AE61960075B53A /* TextWithTwoMediaMessageCell.swift */,
+				30279D1E26AE61960075B53A /* CustomCell.swift */,
+				30279D1F26AE61960075B53A /* TextWithOneMediaMessageCell.swift */,
+				30279D2026AE61960075B53A /* FourMediaOnlyMessageCell.swift */,
+				30279D2126AE61960075B53A /* TwoMediaOnlyMessageCell.swift */,
+				30279D2226AE61960075B53A /* TextWithThreeMediaMessageCell.swift */,
+				30279D2326AE61960075B53A /* Imageloadmessagecell.swift */,
+				30279D2426AE61960075B53A /* PHRMessageCell.swift */,
+				30279D2526AE61960075B53A /* TypingBubble+Extensions.swift */,
+				30279D2626AE61960075B53A /* ResepDokterMessageCell.swift */,
+				30279D2726AE61960075B53A /* UrlMessageCell.swift */,
+				30279D2826AE61960075B53A /* CatatanMessageCell.swift */,
+				30279D2926AE61960075B53A /* ThreeMediaOnlyMessageCell.swift */,
+				30279D2A26AE61960075B53A /* TextWithMediaMessageCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		30279D2B26AE61960075B53A /* CustomCalculators */ = {
+			isa = PBXGroup;
+			children = (
+				30279D2C26AE61960075B53A /* MediaOnlyMessageSizeCalculator.swift */,
+				30279D2D26AE61960075B53A /* CatatanMessageSizeCalculator.swift */,
+				30279D2E26AE61960075B53A /* ImageloadMessageSizeCalculator.swift */,
+				30279D2F26AE61960075B53A /* ResepDokterMessageSizeCalculator.swift */,
+				30279D3026AE61960075B53A /* TextWithMediaMessageSizeCalculator.swift */,
+				30279D3126AE61960075B53A /* UrlMessageSizeCalculator.swift */,
+				30279D3226AE61960075B53A /* PHRMessageSizeCalculator.swift */,
+			);
+			path = CustomCalculators;
+			sourceTree = "<group>";
+		};
+		30279D5326AE61A00075B53A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				30279D5426AE61A00075B53A /* LocalizationHelper.swift */,
+				30279D5526AE61A00075B53A /* Languages */,
+				30279D5726AE61A00075B53A /* CalendarEventHelper.swift */,
+				30279D5926AE61A00075B53A /* ScreenSizeHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		30279D5526AE61A00075B53A /* Languages */ = {
+			isa = PBXGroup;
+			children = (
+				30279D5626AE61A00075B53A /* LocalizationEN.swift */,
+			);
+			path = Languages;
+			sourceTree = "<group>";
+		};
+		30279D6326AE61AB0075B53A /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				30279D6426AE61AB0075B53A /* LightModeColors.swift */,
+				30279D6526AE61AB0075B53A /* DarkModeColors.swift */,
+				30279D6626AE61AB0075B53A /* AppColor.swift */,
+				30279D6726AE61AB0075B53A /* DefaultColors.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		30279EA426AE701D0075B53A /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				30279EA526AE701D0075B53A /* Navi.xib */,
+				30279EA626AE701D0075B53A /* Notifserverdown.swift */,
+				30279EA726AE701D0075B53A /* Navi.swift */,
+				30279EA826AE701D0075B53A /* Notifserverdown.xib */,
+			);
+			path = navigation;
+			sourceTree = "<group>";
+		};
+		30279EB126AE707A0075B53A /* Sizeimage */ = {
+			isa = PBXGroup;
+			children = (
+				30279EB226AE707A0075B53A /* sizeimageViewController.swift */,
+			);
+			path = Sizeimage;
+			sourceTree = "<group>";
+		};
+		30279F4626AE9FF70075B53A /* Customize */ = {
+			isa = PBXGroup;
+			children = (
+				30279F4726AE9FF70075B53A /* Date.swift */,
+				30279F4826AE9FF70075B53A /* uiview.swift */,
+				30279F4926AE9FF70075B53A /* UICustomNavigationBar.swift */,
+				30279F4A26AE9FF70075B53A /* UIView+Extensions.swift */,
+				30279F4B26AE9FF70075B53A /* UIBadgeLabel.swift */,
+				30279F4C26AE9FF70075B53A /* Internetconnection.swift */,
+				30279F4D26AE9FF70075B53A /* UIEdgeInsets+Extensions.swift */,
+				30279F4E26AE9FF70075B53A /* texfield.swift */,
+				30279F5026AE9FF70075B53A /* UIIMage+Extensions.swift */,
+				30279F5126AE9FF70075B53A /* UIPrimaryButton.swift */,
+				30279F5226AE9FF70075B53A /* Dashline.swift */,
+				30279F5326AE9FF70075B53A /* UITealButton.swift */,
+				30279F5426AE9FF70075B53A /* UICheckBox.swift */,
+				30279F5526AE9FF70075B53A /* shadownavigation.swift */,
+				30279F5626AE9FF70075B53A /* doubl.swift */,
+				30279F5726AE9FF70075B53A /* Gradient.swift */,
+				30279F5826AE9FF70075B53A /* Multiformdata.swift */,
+				30279F5926AE9FF70075B53A /* Htmltostring.swift */,
+				30279F5A26AE9FF70075B53A /* string.swift */,
+				30279F5B26AE9FF70075B53A /* Capital.swift */,
+				30279F5C26AE9FF70075B53A /* imageresize.swift */,
+				30279F5D26AE9FF70075B53A /* backgroundgradient.swift */,
+				30279F5E26AE9FF70075B53A /* Button.swift */,
+				30279F5F26AE9FF70075B53A /* Color.swift */,
+				30279F6026AE9FF70075B53A /* Toast.swift */,
+			);
+			path = Customize;
+			sourceTree = "<group>";
+		};
+		30279F8726AEA0DF0075B53A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30279FD726AEA2CE0075B53A /* MObat.swift */,
+				30279F8826AEA0DF0075B53A /* Modelpmr.swift */,
+				30279F8926AEA0DF0075B53A /* Modeltanyadokter.swift */,
+				30279F8A26AEA0DF0075B53A /* passingontabbar.swift */,
+				30279F8B26AEA0DF0075B53A /* Chat */,
+				30279F8E26AEA0DF0075B53A /* Martikel.swift */,
+				30279F8F26AEA0DF0075B53A /* modelform.swift */,
+				30279F9026AEA0DF0075B53A /* Modeldetailtanyadokter.swift */,
+				30279F9126AEA0DF0075B53A /* Parse */,
+				30279F9526AEA0DF0075B53A /* MessageKit */,
+				30279F9926AEA0DF0075B53A /* modelpayment.swift */,
+				30279F9A26AEA0DF0075B53A /* User.swift */,
+				30279F9B26AEA0DF0075B53A /* ModelHistories.swift */,
+				30279F9C26AEA0DF0075B53A /* Fasilitaskesehatanmodel.swift */,
+				30279F9D26AEA0DF0075B53A /* sale.swift */,
+				30279F9E26AEA0DF0075B53A /* MAdvertisement.swift */,
+				30279F9F26AEA0DF0075B53A /* ModelProfile.swift */,
+				30279FA026AEA0DF0075B53A /* MNotification.swift */,
+				30279FA126AEA0DF0075B53A /* Kategori.swift */,
+				30279FA326AEA0DF0075B53A /* Pesannotif.swift */,
+				30279FA426AEA0DF0075B53A /* Modelorder.swift */,
+				30279FA526AEA0DF0075B53A /* ModelVoucer.swift */,
+				30279FA626AEA0DF0075B53A /* Mbalance.swift */,
+				30279FA726AEA0DF0075B53A /* Mresepobat.swift */,
+				30279FA826AEA0DF0075B53A /* Adds.swift */,
+				30279FA926AEA0DF0075B53A /* ModelPHR.swift */,
+				30279FAA26AEA0DF0075B53A /* AlamatModel.swift */,
+				30B8475A26C2630900D8DC61 /* OrderObat.swift */,
+				30A0131E26CCC9520018B046 /* Resepobatmod.swift */,
+				303092BC26D4B055007553B5 /* Getprice.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30279F8B26AEA0DF0075B53A /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				30279F8C26AEA0DF0075B53A /* ConsultationPostModel.swift */,
+				30279F8D26AEA0DF0075B53A /* ConsultationUserModel.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		30279F9126AEA0DF0075B53A /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				30279F9226AEA0DF0075B53A /* ConversationModel.swift */,
+				30279F9326AEA0DF0075B53A /* ChatModel.swift */,
+				30279F9426AEA0DF0075B53A /* ConsultationModel.swift */,
+			);
+			path = Parse;
+			sourceTree = "<group>";
+		};
+		30279F9526AEA0DF0075B53A /* MessageKit */ = {
+			isa = PBXGroup;
+			children = (
+				30279F9626AEA0DF0075B53A /* MockMessage.swift */,
+				30279F9726AEA0DF0075B53A /* MockMessageItems.swift */,
+				30279F9826AEA0DF0075B53A /* MockUser.swift */,
+			);
+			path = MessageKit;
+			sourceTree = "<group>";
+		};
+		3028F263269C2B4200204CDC /* Faskes */ = {
+			isa = PBXGroup;
+			children = (
+				30A4AE9E26A94201002E2C66 /* detailklinik */,
+				30A4AE9D26A941EA002E2C66 /* fasilitaskesehatan */,
+				30A4AE1A26A93884002E2C66 /* cell */,
+			);
+			path = Faskes;
+			sourceTree = "<group>";
+		};
+		3033984D27474D79004557FF /* ListTanyadokter */ = {
+			isa = PBXGroup;
+			children = (
+				3033985227474E0E004557FF /* TanyaDokterListTableViewCell.swift */,
+				3033985327474E0E004557FF /* TanyaDokterListTableViewCell.xib */,
+			);
+			path = ListTanyadokter;
+			sourceTree = "<group>";
+		};
+		304ECC3426CAA24100318AD7 /* Alamat */ = {
+			isa = PBXGroup;
+			children = (
+				304ECC3526CAA25D00318AD7 /* listalamatViewController.swift */,
+				304ECC3B26CAA68F00318AD7 /* MapviewalamatViewController.swift */,
+			);
+			path = Alamat;
+			sourceTree = "<group>";
+		};
+		3065E4E126B10A35009E4F8F /* History */ = {
+			isa = PBXGroup;
+			children = (
+				3065E4E226B10A46009E4F8F /* historypembelianViewControllerdelegatetochild.swift */,
+				3065E4EC26B10A64009E4F8F /* childhistoryViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		3065E4F226B10B8E009E4F8F /* History */ = {
+			isa = PBXGroup;
+			children = (
+				3065E4F326B10B9E009E4F8F /* historiescellkonsulTableViewCell.swift */,
+				30A399B426D23EA600D09D06 /* historiescellobatTableViewCell.swift */,
+				30A399EB26D2837200D09D06 /* checkorderCollectionViewCell.swift */,
+				30A399F126D2839700D09D06 /* checkkeluhanorderCollectionViewCell.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		3065E53026B11A96009E4F8F /* keluhan */ = {
+			isa = PBXGroup;
+			children = (
+				3065E53126B11AA3009E4F8F /* keluhanpesananobatcollCell.swift */,
+			);
+			path = keluhan;
+			sourceTree = "<group>";
+		};
+		3065E55D26B12CD9009E4F8F /* rating */ = {
+			isa = PBXGroup;
+			children = (
+				3065E55E26B12CE7009E4F8F /* ratingCollectionViewCell.swift */,
+			);
+			path = rating;
+			sourceTree = "<group>";
+		};
+		3076E39326E5FDDE0024506E /* resep */ = {
+			isa = PBXGroup;
+			children = (
+				3076E39426E5FDF70024506E /* resepcellTableViewCell.swift */,
+				309E17BB26E70F400092971C /* ResepObatTableViewCell.swift */,
+				309E17BC26E70F400092971C /* ResepObatTableViewCell.xib */,
+			);
+			path = resep;
+			sourceTree = "<group>";
+		};
+		3095971F275770FF0029F2AF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				30959720275770FF0029F2AF /* Roboto */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		30959720275770FF0029F2AF /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				30959721275770FF0029F2AF /* Roboto-Medium.ttf */,
+				30959722275770FF0029F2AF /* Roboto-Light.ttf */,
+				30959723275770FF0029F2AF /* Roboto-Regular.ttf */,
+				30959724275770FF0029F2AF /* Roboto-MediumItalic.ttf */,
+				30959725275770FF0029F2AF /* Roboto-ThinItalic.ttf */,
+				30959726275770FF0029F2AF /* Roboto-BoldItalic.ttf */,
+				30959727275770FF0029F2AF /* Roboto-LightItalic.ttf */,
+				30959728275770FF0029F2AF /* Roboto-Italic.ttf */,
+				30959729275770FF0029F2AF /* LICENSE.txt */,
+				3095972A275770FF0029F2AF /* Roboto-BlackItalic.ttf */,
+				3095972B275770FF0029F2AF /* Roboto-Bold.ttf */,
+				3095972C275770FF0029F2AF /* Roboto-Thin.ttf */,
+				3095972D275770FF0029F2AF /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		30A012FF26CCC17C0018B046 /* Alamat */ = {
+			isa = PBXGroup;
+			children = (
+				30A0130026CCC18C0018B046 /* listalamatTableViewCell.swift */,
+				30A0130A26CCC2370018B046 /* celltypealamatCollectionViewCell.swift */,
+			);
+			path = Alamat;
+			sourceTree = "<group>";
+		};
+		30A399C826D27D3D00D09D06 /* ordertacking */ = {
+			isa = PBXGroup;
+			children = (
+				30A399C926D27D6D00D09D06 /* ordertrackingtransaksi.swift */,
+				3063853F27587DA0004F4F12 /* NewTrackingViewController.swift */,
+			);
+			path = ordertacking;
+			sourceTree = "<group>";
+		};
+		30A4AE1A26A93884002E2C66 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				30A4AE3626A93AA8002E2C66 /* FaskessCollectionViewCell.swift */,
+				30A4AE3726A93AA8002E2C66 /* FaskessCollectionViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		30A4AE9D26A941EA002E2C66 /* fasilitaskesehatan */ = {
+			isa = PBXGroup;
+			children = (
+				3047AC5226A92B7500704C53 /* fasilitaskesehatanVC.swift */,
+				3047AC5326A92B7500704C53 /* fasilitaskesehatanVC.xib */,
+			);
+			path = fasilitaskesehatan;
+			sourceTree = "<group>";
+		};
+		30A4AE9E26A94201002E2C66 /* detailklinik */ = {
+			isa = PBXGroup;
+			children = (
+				30A4AEAD26A947F5002E2C66 /* detailklinikVc.swift */,
+				30A4AEAE26A947F5002E2C66 /* detailklinikVc.xib */,
+			);
+			path = detailklinik;
+			sourceTree = "<group>";
+		};
+		30B7C06B26AA9DCC00B56D10 /* Pembayaran */ = {
+			isa = PBXGroup;
+			children = (
+				30B7C06C26AA9DCC00B56D10 /* metoderpembayaranViewController.swift */,
+			);
+			path = Pembayaran;
+			sourceTree = "<group>";
+		};
+		30B7C07226AA9E3300B56D10 /* pembayaran */ = {
+			isa = PBXGroup;
+			children = (
+				30B7C07326AA9E3300B56D10 /* pembayaranselectedTableViewCell.swift */,
+			);
+			path = pembayaran;
+			sourceTree = "<group>";
+		};
+		30B8474C26C2602400D8DC61 /* Order obat */ = {
+			isa = PBXGroup;
+			children = (
+				30B8474D26C2603700D8DC61 /* OrderobatViewController.swift */,
+				30CCF96326D5E68B00A9285D /* PembayaranobatViewController.swift */,
+			);
+			path = "Order obat";
+			sourceTree = "<group>";
+		};
+		30B8475326C2617E00D8DC61 /* Order Obat */ = {
+			isa = PBXGroup;
+			children = (
+				30B8475426C2618A00D8DC61 /* cartobatpriceTableViewCell.swift */,
+				30A399DF26D27FFD00D09D06 /* ordertrackingtransaksiTableViewCell.swift */,
+				303092C826D4CF61007553B5 /* ListcourTableViewCell.swift */,
+				30CCF96D26D61DE300A9285D /* cellpembayaranobatTableViewCell.swift */,
+			);
+			path = "Order Obat";
+			sourceTree = "<group>";
+		};
+		30C20B2F2696FF310098DD0F /* Faskes */ = {
+			isa = PBXGroup;
+			children = (
+				30C20B302696FF3B0098DD0F /* fasilitaskesehatanViewController.swift */,
+				30C20B6D26970B2E0098DD0F /* detailklinikViewController.swift */,
+			);
+			path = Faskes;
+			sourceTree = "<group>";
+		};
+		30C20B7526970C910098DD0F /* Tanyadokter */ = {
+			isa = PBXGroup;
+			children = (
+				30C20B7626970CB90098DD0F /* DetailtanyadokterViewController.swift */,
+				30C20B85269711600098DD0F /* filerdokterViewController.swift */,
+			);
+			path = Tanyadokter;
+			sourceTree = "<group>";
+		};
+		30C20B7C2697108F0098DD0F /* Tanya dokter */ = {
+			isa = PBXGroup;
+			children = (
+				30C20B7D2697109D0098DD0F /* selectedfilterCollectionViewCell.swift */,
+				30C20B81269711110098DD0F /* DetailtanyadoktercellTableViewCell.swift */,
+				300BC278269821CD009F0AC6 /* filterdokterTableViewCell.swift */,
+				3020165F26A9633000EFC78A /* DetailtanyadoktercellTableViewCell.xib */,
+				3020166526A9648100EFC78A /* LoadingDetailtanyadoktercellTableViewCell.xib */,
+				3020166B26A9656B00EFC78A /* selectedfilterCollectionViewCell.xib */,
+			);
+			path = "Tanya dokter";
+			sourceTree = "<group>";
+		};
+		30EDF6D22696B33300A08A37 = {
+			isa = PBXGroup;
+			children = (
+				30EDF6DE2696B33300A08A37 /* transmedik */,
+				30EDF6E92696B33400A08A37 /* transmedikTests */,
+				30EDF6DD2696B33300A08A37 /* Products */,
+				FF62096D58DA0A802BE7A42D /* Pods */,
+				86ED4BFFED0D2F3340772717 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30EDF6DD2696B33300A08A37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30EDF6DC2696B33300A08A37 /* transmedik.framework */,
+				30EDF6E52696B33400A08A37 /* transmedikTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30EDF6DE2696B33300A08A37 /* transmedik */ = {
+			isa = PBXGroup;
+			children = (
+				3095971F275770FF0029F2AF /* Fonts */,
+				30279F8726AEA0DF0075B53A /* Model */,
+				30279F4626AE9FF70075B53A /* Customize */,
+				30279D6326AE61AB0075B53A /* Color */,
+				30279D5326AE61A00075B53A /* Helper */,
+				30279D1726AE61960075B53A /* Components */,
+				30EDF74E2696C07900A08A37 /* View */,
+				30EDF7412696B8CD00A08A37 /* Objcet */,
+				30EDF7402696B7F400A08A37 /* controller */,
+				30EDF73E2696B7D400A08A37 /* Stroyboard */,
+				30EDF6DF2696B33300A08A37 /* transmedik.h */,
+				30EDF6E02696B33300A08A37 /* Info.plist */,
+				30EDF7422696B8E200A08A37 /* AppSettings.swift */,
+				30EC592227421F80003AB8B7 /* loading_rainbow.json */,
+				30C20B4B2697029E0098DD0F /* Valuecolor.swift */,
+				300BC2BE26983CBE009F0AC6 /* Count.swift */,
+				3028F152269BEF0E00204CDC /* Transmedik.swift */,
+				3047ABFD26A9278700704C53 /* Manage.swift */,
+				30B7C05026AA7A7500B56D10 /* databaseTransmedik.xcdatamodeld */,
+				3020165926A962F900EFC78A /* Assets.xcassets */,
+				30B7C05726AA7F6700B56D10 /* CoreManage.swift */,
+			);
+			path = transmedik;
+			sourceTree = "<group>";
+		};
+		30EDF6E92696B33400A08A37 /* transmedikTests */ = {
+			isa = PBXGroup;
+			children = (
+				30EDF6EA2696B33400A08A37 /* transmedikTests.swift */,
+				30EDF6EC2696B33400A08A37 /* Info.plist */,
+			);
+			path = transmedikTests;
+			sourceTree = "<group>";
+		};
+		30EDF73E2696B7D400A08A37 /* Stroyboard */ = {
+			isa = PBXGroup;
+			children = (
+				30B7C06B26AA9DCC00B56D10 /* Pembayaran */,
+				3028F263269C2B4200204CDC /* Faskes */,
+				30EDF74A2696BC1100A08A37 /* Fasilitaskesehatan.storyboard */,
+				30B7C06526AA9DAC00B56D10 /* Pembayaran.storyboard */,
+				30279C4F26AE55FE0075B53A /* pinandpassword.storyboard */,
+				30C20B7126970BF00098DD0F /* Tanyadokter.storyboard */,
+				30279C7F26AE5BF20075B53A /* Notification.storyboard */,
+				30279EB826AE709B0075B53A /* Sizeimage.storyboard */,
+				3010290626AFE354002D1F92 /* Form.storyboard */,
+				30279C4326AE53E20075B53A /* Categoryobat.storyboard */,
+				300BC27C26982453009F0AC6 /* Profiledokter.storyboard */,
+				300BC28F269826EB009F0AC6 /* Chat.storyboard */,
+				300BC2E526983FDC009F0AC6 /* Loading.storyboard */,
+				300BC310269877B4009F0AC6 /* Form.storyboard */,
+				30279C9426AE5D060075B53A /* Webviews.storyboard */,
+				3010292026AFEC13002D1F92 /* Edituser.storyboard */,
+				3065E4DB26B10969009E4F8F /* History.storyboard */,
+				3065E56A26B12F5C009E4F8F /* Transmedik.storyboard */,
+				309D0C9926B1474F000760ED /* rating.storyboard */,
+				30B8474626C25E3D00D8DC61 /* Orderobat.storyboard */,
+				304ECC2E26CAA12400318AD7 /* Alamat.storyboard */,
+				30A399C226D27D1100D09D06 /* Ordertracking.storyboard */,
+			);
+			path = Stroyboard;
+			sourceTree = "<group>";
+		};
+		30EDF7402696B7F400A08A37 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				30A399C826D27D3D00D09D06 /* ordertacking */,
+				304ECC3426CAA24100318AD7 /* Alamat */,
+				30B8474C26C2602400D8DC61 /* Order obat */,
+				30279C4926AE54670075B53A /* includevoucherobatViewController.swift */,
+				30279ED226AE74C20075B53A /* notifViewController.swift */,
+				30279C9A26AE5D540075B53A /* OpenpdfViewController.swift */,
+				3010292626AFECB8002D1F92 /* EdituserViewController.swift */,
+				3065E55126B11C2A009E4F8F /* ratingViewController.swift */,
+				3065E57026B130DF009E4F8F /* HomeViewController.swift */,
+				3065E4E126B10A35009E4F8F /* History */,
+				30279EB126AE707A0075B53A /* Sizeimage */,
+				30279C8526AE5C200075B53A /* Notification */,
+				30279C5526AE56340075B53A /* pin */,
+				300BC3142698780C009F0AC6 /* Form */,
+				300BC30626984B95009F0AC6 /* Editprofile */,
+				300BC2E926983FE4009F0AC6 /* Loading */,
+				300BC29326982B50009F0AC6 /* Chat */,
+				300BC280269824AE009F0AC6 /* Profiledokter */,
+				30C20B7526970C910098DD0F /* Tanyadokter */,
+				30C20B2F2696FF310098DD0F /* Faskes */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		30EDF7412696B8CD00A08A37 /* Objcet */ = {
+			isa = PBXGroup;
+			children = (
+				30C20B3F269701400098DD0F /* FaskesObject.swift */,
+				3065E50926B10E9C009E4F8F /* history.swift */,
+				30C20B47269702300098DD0F /* SpecialistObject.swift */,
+				30C20B6926970A560098DD0F /* FormObject.swift */,
+				300BC28726982587009F0AC6 /* Doktersobject.swift */,
+				300BC2A226982FAD009F0AC6 /* Voucherobject.swift */,
+				300BC2AA269830F7009F0AC6 /* paymentobject.swift */,
+				300BC2C826983D70009F0AC6 /* Chat.swift */,
+				300BC2E126983F27009F0AC6 /* balanceobject.swift */,
+				300BC30226984349009F0AC6 /* ProfileObjcect.swift */,
+				30279FE726AEA81A0075B53A /* resepdigitalobject.swift */,
+				3065E50326B10DC2009E4F8F /* Obat.swift */,
+				3065E55726B11C51009E4F8F /* ratingobject.swift */,
+				304ECC7A26CAA72100318AD7 /* Alamat.swift */,
+				30A399E526D280DC00D09D06 /* Orderobject.swift */,
+			);
+			path = Objcet;
+			sourceTree = "<group>";
+		};
+		30EDF74E2696C07900A08A37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3033984D27474D79004557FF /* ListTanyadokter */,
+				3076E39326E5FDDE0024506E /* resep */,
+				30A012FF26CCC17C0018B046 /* Alamat */,
+				30B8475326C2617E00D8DC61 /* Order Obat */,
+				3065E55D26B12CD9009E4F8F /* rating */,
+				3065E53026B11A96009E4F8F /* keluhan */,
+				3065E4F226B10B8E009E4F8F /* History */,
+				30279EA426AE701D0075B53A /* navigation */,
+				30279CDC26AE60C00075B53A /* Chat */,
+				30B7C07226AA9E3300B56D10 /* pembayaran */,
+				3025E20926994439006C07FC /* Form */,
+				300BC30B269876A5009F0AC6 /* Editdata */,
+				30C20B7C2697108F0098DD0F /* Tanya dokter */,
+				3065E57626B133FB009E4F8F /* cellmenuinhomeCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		86ED4BFFED0D2F3340772717 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				305A58CB269F3CD600097C27 /* Alamofire.framework */,
+				30C20A5B2696DE210098DD0F /* Alamofire.framework */,
+				8C421827579211D0B47D924D /* Pods_transmedik.framework */,
+				9FDF9D2652F2AC0B3E7AFD9A /* Pods_transmedik_transmedikTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF62096D58DA0A802BE7A42D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B374D9083C4F499ABB1F3EFC /* Pods-transmedik.debug.xcconfig */,
+				D646FC4A7856FE6B168134B5 /* Pods-transmedik.release.xcconfig */,
+				2DCCBF5333A5F00C0071DA44 /* Pods-transmedik-transmedikTests.debug.xcconfig */,
+				6D09C37EB4E607304B967391 /* Pods-transmedik-transmedikTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30EDF6D72696B33300A08A37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EDF6ED2696B33400A08A37 /* transmedik.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		30EDF6DB2696B33300A08A37 /* transmedik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EDF6F02696B33400A08A37 /* Build configuration list for PBXNativeTarget "transmedik" */;
+			buildPhases = (
+				49301392B3DA83E2407AE36E /* [CP] Check Pods Manifest.lock */,
+				30EDF6D72696B33300A08A37 /* Headers */,
+				30EDF6D82696B33300A08A37 /* Sources */,
+				30EDF6D92696B33300A08A37 /* Frameworks */,
+				30EDF6DA2696B33300A08A37 /* Resources */,
+				CD30167F88DDBD6D1D7D263A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = transmedik;
+			productName = transmedik;
+			productReference = 30EDF6DC2696B33300A08A37 /* transmedik.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		30EDF6E42696B33400A08A37 /* transmedikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EDF6F32696B33400A08A37 /* Build configuration list for PBXNativeTarget "transmedikTests" */;
+			buildPhases = (
+				CBA59C3CA1DBDA3AE0BBBEF3 /* [CP] Check Pods Manifest.lock */,
+				30EDF6E12696B33400A08A37 /* Sources */,
+				30EDF6E22696B33400A08A37 /* Frameworks */,
+				30EDF6E32696B33400A08A37 /* Resources */,
+				55EECDA1E932449E9FB01B6C /* [CP] Embed Pods Frameworks */,
+				C62DC2B5499581A434C478E2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30EDF6E82696B33400A08A37 /* PBXTargetDependency */,
+			);
+			name = transmedikTests;
+			productName = transmedikTests;
+			productReference = 30EDF6E52696B33400A08A37 /* transmedikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30EDF6D32696B33300A08A37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					30EDF6DB2696B33300A08A37 = {
+						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
+					};
+					30EDF6E42696B33400A08A37 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 30EDF6D62696B33300A08A37 /* Build configuration list for PBXProject "transmedik" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30EDF6D22696B33300A08A37;
+			productRefGroup = 30EDF6DD2696B33300A08A37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30EDF6DB2696B33300A08A37 /* transmedik */,
+				30EDF6E42696B33400A08A37 /* transmedikTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30EDF6DA2696B33300A08A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C20B7226970BF00098DD0F /* Tanyadokter.storyboard in Resources */,
+				300BC27D26982453009F0AC6 /* Profiledokter.storyboard in Resources */,
+				3010292126AFEC13002D1F92 /* Edituser.storyboard in Resources */,
+				30B7C06626AA9DAC00B56D10 /* Pembayaran.storyboard in Resources */,
+				3020165A26A962F900EFC78A /* Assets.xcassets in Resources */,
+				30EDF74B2696BC1100A08A37 /* Fasilitaskesehatan.storyboard in Resources */,
+				300BC2E626983FDC009F0AC6 /* Loading.storyboard in Resources */,
+				30959736275771000029F2AF /* LICENSE.txt in Resources */,
+				30A4AE3926A93AA8002E2C66 /* FaskessCollectionViewCell.xib in Resources */,
+				304ECC2F26CAA12400318AD7 /* Alamat.storyboard in Resources */,
+				3047AC5526A92B7500704C53 /* fasilitaskesehatanVC.xib in Resources */,
+				3095972E275771000029F2AF /* Roboto-Medium.ttf in Resources */,
+				3020166C26A9656B00EFC78A /* selectedfilterCollectionViewCell.xib in Resources */,
+				30959732275771000029F2AF /* Roboto-ThinItalic.ttf in Resources */,
+				30279C4426AE53E20075B53A /* Categoryobat.storyboard in Resources */,
+				3065E4DC26B1096A009E4F8F /* History.storyboard in Resources */,
+				30A399C326D27D1100D09D06 /* Ordertracking.storyboard in Resources */,
+				3010290726AFE354002D1F92 /* Form.storyboard in Resources */,
+				30B8474726C25E3D00D8DC61 /* Orderobat.storyboard in Resources */,
+				30959733275771000029F2AF /* Roboto-BoldItalic.ttf in Resources */,
+				30959730275771000029F2AF /* Roboto-Regular.ttf in Resources */,
+				309D0C9A26B1474F000760ED /* rating.storyboard in Resources */,
+				3020166626A9648100EFC78A /* LoadingDetailtanyadoktercellTableViewCell.xib in Resources */,
+				30279EAC26AE701D0075B53A /* Notifserverdown.xib in Resources */,
+				309E17BE26E70F400092971C /* ResepObatTableViewCell.xib in Resources */,
+				300BC311269877B4009F0AC6 /* Form.storyboard in Resources */,
+				30959735275771000029F2AF /* Roboto-Italic.ttf in Resources */,
+				300BC290269826EB009F0AC6 /* Chat.storyboard in Resources */,
+				30279EB926AE709B0075B53A /* Sizeimage.storyboard in Resources */,
+				3065E56B26B12F5C009E4F8F /* Transmedik.storyboard in Resources */,
+				3033985527474E0E004557FF /* TanyaDokterListTableViewCell.xib in Resources */,
+				3095972F275771000029F2AF /* Roboto-Light.ttf in Resources */,
+				30959739275771000029F2AF /* Roboto-Thin.ttf in Resources */,
+				30959738275771000029F2AF /* Roboto-Bold.ttf in Resources */,
+				30959734275771000029F2AF /* Roboto-LightItalic.ttf in Resources */,
+				30279EA926AE701D0075B53A /* Navi.xib in Resources */,
+				30279C5026AE55FE0075B53A /* pinandpassword.storyboard in Resources */,
+				30A4AEB026A947F5002E2C66 /* detailklinikVc.xib in Resources */,
+				30279C8026AE5BF20075B53A /* Notification.storyboard in Resources */,
+				30279C9526AE5D060075B53A /* Webviews.storyboard in Resources */,
+				30279CED26AE60C00075B53A /* newexchat.xib in Resources */,
+				3095973A275771000029F2AF /* Roboto-Black.ttf in Resources */,
+				30959737275771000029F2AF /* Roboto-BlackItalic.ttf in Resources */,
+				30EC592327421F80003AB8B7 /* loading_rainbow.json in Resources */,
+				30279CEC26AE60C00075B53A /* ExChat.xib in Resources */,
+				30959731275771000029F2AF /* Roboto-MediumItalic.ttf in Resources */,
+				3020166026A9633000EFC78A /* DetailtanyadoktercellTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EDF6E32696B33400A08A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49301392B3DA83E2407AE36E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-transmedik-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55EECDA1E932449E9FB01B6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-transmedik-transmedikTests/Pods-transmedik-transmedikTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-transmedik-transmedikTests/Pods-transmedik-transmedikTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-transmedik-transmedikTests/Pods-transmedik-transmedikTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C62DC2B5499581A434C478E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-transmedik-transmedikTests/Pods-transmedik-transmedikTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-transmedik-transmedikTests/Pods-transmedik-transmedikTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-transmedik-transmedikTests/Pods-transmedik-transmedikTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBA59C3CA1DBDA3AE0BBBEF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-transmedik-transmedikTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD30167F88DDBD6D1D7D263A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-transmedik/Pods-transmedik-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-transmedik/Pods-transmedik-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-transmedik/Pods-transmedik-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30EDF6D82696B33300A08A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EDF7432696B8E200A08A37 /* AppSettings.swift in Sources */,
+				30279D6B26AE61AB0075B53A /* DefaultColors.swift in Sources */,
+				30279CA626AE5FA50075B53A /* DetailChatViewController+MessageKitExrtension.swift in Sources */,
+				30B7C05826AA7F6700B56D10 /* CoreManage.swift in Sources */,
+				304ECC3C26CAA68F00318AD7 /* MapviewalamatViewController.swift in Sources */,
+				30B7C05226AA7A7500B56D10 /* databaseTransmedik.xcdatamodeld in Sources */,
+				30279F7026AE9FF70075B53A /* doubl.swift in Sources */,
+				300BC30D269876B2009F0AC6 /* editphrbadanTableViewCell.swift in Sources */,
+				30279C9B26AE5D540075B53A /* OpenpdfViewController.swift in Sources */,
+				30279D4626AE61970075B53A /* MediaOnlyMessageSizeCalculator.swift in Sources */,
+				30279D3626AE61970075B53A /* TextWithFourMediaMessageCell.swift in Sources */,
+				30A0130B26CCC2370018B046 /* celltypealamatCollectionViewCell.swift in Sources */,
+				3065E50A26B10E9C009E4F8F /* history.swift in Sources */,
+				300BC2AB269830F7009F0AC6 /* paymentobject.swift in Sources */,
+				30279D5B26AE61A00075B53A /* LocalizationEN.swift in Sources */,
+				30279D3526AE61970075B53A /* MediaOnlyMessageCell.swift in Sources */,
+				30B9E3692745FC4A003B77E8 /* NewProfileDokterVC.swift in Sources */,
+				300BC2A326982FAD009F0AC6 /* Voucherobject.swift in Sources */,
+				3047ABFE26A9278700704C53 /* Manage.swift in Sources */,
+				30279F6326AE9FF70075B53A /* UICustomNavigationBar.swift in Sources */,
+				3065E55826B11C51009E4F8F /* ratingobject.swift in Sources */,
+				30279CE826AE60C00075B53A /* UIResepStaticTableViewCell.swift in Sources */,
+				30279FC626AEA0DF0075B53A /* Mbalance.swift in Sources */,
+				30279D6A26AE61AB0075B53A /* AppColor.swift in Sources */,
+				30279F6826AE9FF70075B53A /* texfield.swift in Sources */,
+				30279D4526AE61970075B53A /* TextWithMediaMessageCell.swift in Sources */,
+				30279CE926AE60C00075B53A /* ChatTitleView.swift in Sources */,
+				30CCF96E26D61DE300A9285D /* cellpembayaranobatTableViewCell.swift in Sources */,
+				30279F6C26AE9FF70075B53A /* Dashline.swift in Sources */,
+				30279FD826AEA2CE0075B53A /* MObat.swift in Sources */,
+				30279FC326AEA0DF0075B53A /* Pesannotif.swift in Sources */,
+				300BC31C2698788C009F0AC6 /* form_pertanyaan_delegate.swift in Sources */,
+				30279FBC26AEA0DF0075B53A /* Fasilitaskesehatanmodel.swift in Sources */,
+				30279CEF26AE60C00075B53A /* DoctorInfoView.swift in Sources */,
+				30279F6D26AE9FF70075B53A /* UITealButton.swift in Sources */,
+				30279EAA26AE701D0075B53A /* Notifserverdown.swift in Sources */,
+				30279F6126AE9FF70075B53A /* Date.swift in Sources */,
+				30279CA926AE5FA50075B53A /* ConsultWaitController.swift in Sources */,
+				30279FAC26AEA0DF0075B53A /* Modeltanyadokter.swift in Sources */,
+				30C20B86269711600098DD0F /* filerdokterViewController.swift in Sources */,
+				30279CEA26AE60C00075B53A /* PasienInfoView.swift in Sources */,
+				30C20B40269701400098DD0F /* FaskesObject.swift in Sources */,
+				30279FC826AEA0DF0075B53A /* Adds.swift in Sources */,
+				30279D6826AE61AB0075B53A /* LightModeColors.swift in Sources */,
+				300BC30326984349009F0AC6 /* ProfileObjcect.swift in Sources */,
+				30279EBF26AE71E50075B53A /* extensionchatdetailViewController.swift in Sources */,
+				30279FB826AEA0DF0075B53A /* MockUser.swift in Sources */,
+				30279F6F26AE9FF70075B53A /* shadownavigation.swift in Sources */,
+				30279D3926AE61970075B53A /* CustomCell.swift in Sources */,
+				3065E55226B11C2A009E4F8F /* ratingViewController.swift in Sources */,
+				30C20B7726970CB90098DD0F /* DetailtanyadokterViewController.swift in Sources */,
+				3025E221269948BC006C07FC /* cellotherpertanyaanTableViewCell.swift in Sources */,
+				300BC29526982B7A009F0AC6 /* transaksichatchildViewController.swift in Sources */,
+				30279FBA26AEA0DF0075B53A /* User.swift in Sources */,
+				30279FC026AEA0DF0075B53A /* MNotification.swift in Sources */,
+				300BC2BF26983CBE009F0AC6 /* Count.swift in Sources */,
+				30A4AE3826A93AA8002E2C66 /* FaskessCollectionViewCell.swift in Sources */,
+				3025E21926994659006C07FC /* formtextareaTableViewCell.swift in Sources */,
+				30A0130126CCC18C0018B046 /* listalamatTableViewCell.swift in Sources */,
+				3065E50426B10DC2009E4F8F /* Obat.swift in Sources */,
+				30279F7226AE9FF70075B53A /* Multiformdata.swift in Sources */,
+				30279F7826AE9FF70075B53A /* Button.swift in Sources */,
+				30279EB326AE707A0075B53A /* sizeimageViewController.swift in Sources */,
+				3063854027587DA0004F4F12 /* NewTrackingViewController.swift in Sources */,
+				300BC282269824BC009F0AC6 /* profiledoktermasterViewController.swift in Sources */,
+				30279D3D26AE61970075B53A /* TextWithThreeMediaMessageCell.swift in Sources */,
+				3025E20B26994461006C07FC /* formpertanyaantextfieldTableViewCell.swift in Sources */,
+				30279D3F26AE61970075B53A /* PHRMessageCell.swift in Sources */,
+				30279FB426AEA0DF0075B53A /* ChatModel.swift in Sources */,
+				303092BD26D4B055007553B5 /* Getprice.swift in Sources */,
+				3065E53226B11AA3009E4F8F /* keluhanpesananobatcollCell.swift in Sources */,
+				30279FBD26AEA0DF0075B53A /* sale.swift in Sources */,
+				3025E21D26994674006C07FC /* celljawabanTableViewCell.swift in Sources */,
+				30B8475526C2618A00D8DC61 /* cartobatpriceTableViewCell.swift in Sources */,
+				300BC2C926983D70009F0AC6 /* Chat.swift in Sources */,
+				300BC2FF269842FA009F0AC6 /* transaksichatmasterViewController.swift in Sources */,
+				30279FC426AEA0DF0075B53A /* Modelorder.swift in Sources */,
+				300BC279269821CD009F0AC6 /* filterdokterTableViewCell.swift in Sources */,
+				30279CA726AE5FA50075B53A /* DetailChatViewController+DataExtension.swift in Sources */,
+				30279F6E26AE9FF70075B53A /* UICheckBox.swift in Sources */,
+				303092C926D4CF61007553B5 /* ListcourTableViewCell.swift in Sources */,
+				30279F7726AE9FF70075B53A /* backgroundgradient.swift in Sources */,
+				30279FB026AEA0DF0075B53A /* Martikel.swift in Sources */,
+				3025E225269948DA006C07FC /* cellvaluepertanyaanTableViewCell.swift in Sources */,
+				30279D4826AE61970075B53A /* ImageloadMessageSizeCalculator.swift in Sources */,
+				30279F7426AE9FF70075B53A /* string.swift in Sources */,
+				304ECC7B26CAA72100318AD7 /* Alamat.swift in Sources */,
+				3065E57126B130DF009E4F8F /* HomeViewController.swift in Sources */,
+				30279FB126AEA0DF0075B53A /* modelform.swift in Sources */,
+				30279D5E26AE61A00075B53A /* ScreenSizeHelper.swift in Sources */,
+				30279FE826AEA81A0075B53A /* resepdigitalobject.swift in Sources */,
+				30A399F226D2839700D09D06 /* checkkeluhanorderCollectionViewCell.swift in Sources */,
+				300BC3162698784E009F0AC6 /* formsViewController.swift in Sources */,
+				30279F6526AE9FF70075B53A /* UIBadgeLabel.swift in Sources */,
+				30279FB726AEA0DF0075B53A /* MockMessageItems.swift in Sources */,
+				30B8474E26C2603700D8DC61 /* OrderobatViewController.swift in Sources */,
+				3047AC5426A92B7500704C53 /* fasilitaskesehatanVC.swift in Sources */,
+				30279FAD26AEA0DF0075B53A /* passingontabbar.swift in Sources */,
+				30B8472726C2416400D8DC61 /* Newform.swift in Sources */,
+				30279E9D26AE6F800075B53A /* BasicAudioController.swift in Sources */,
+				30A399E626D280DC00D09D06 /* Orderobject.swift in Sources */,
+				30279FC126AEA0DF0075B53A /* Kategori.swift in Sources */,
+				30279F7626AE9FF70075B53A /* imageresize.swift in Sources */,
+				30279D3A26AE61970075B53A /* TextWithOneMediaMessageCell.swift in Sources */,
+				309E17BD26E70F400092971C /* ResepObatTableViewCell.swift in Sources */,
+				3065E55F26B12CE7009E4F8F /* ratingCollectionViewCell.swift in Sources */,
+				30279C4A26AE54670075B53A /* includevoucherobatViewController.swift in Sources */,
+				30279FAE26AEA0DF0075B53A /* ConsultationPostModel.swift in Sources */,
+				30279F6226AE9FF70075B53A /* uiview.swift in Sources */,
+				30279FCA26AEA0DF0075B53A /* AlamatModel.swift in Sources */,
+				30A0131F26CCC9520018B046 /* Resepobatmod.swift in Sources */,
+				30279D4026AE61970075B53A /* TypingBubble+Extensions.swift in Sources */,
+				30279E9F26AE6F800075B53A /* CatatanDokterViewController.swift in Sources */,
+				3025E2152699463B006C07FC /* formpertanyaanbuttonTableViewCell.swift in Sources */,
+				30A399CA26D27D6D00D09D06 /* ordertrackingtransaksi.swift in Sources */,
+				30B8475B26C2630900D8DC61 /* OrderObat.swift in Sources */,
+				304ECC8526CAAFFA00318AD7 /* NotificationcustomizeViewController.swift in Sources */,
+				30279FB226AEA0DF0075B53A /* Modeldetailtanyadokter.swift in Sources */,
+				30C20B6A26970A560098DD0F /* FormObject.swift in Sources */,
+				30279D6926AE61AB0075B53A /* DarkModeColors.swift in Sources */,
+				30279FAB26AEA0DF0075B53A /* Modelpmr.swift in Sources */,
+				30C20B312696FF3B0098DD0F /* fasilitaskesehatanViewController.swift in Sources */,
+				30279FBF26AEA0DF0075B53A /* ModelProfile.swift in Sources */,
+				3025E2062699442C006C07FC /* formpertanyaanselectionTableViewCell.swift in Sources */,
+				30279FBB26AEA0DF0075B53A /* ModelHistories.swift in Sources */,
+				30C20B48269702300098DD0F /* SpecialistObject.swift in Sources */,
+				30279F6426AE9FF70075B53A /* UIView+Extensions.swift in Sources */,
+				30279FC926AEA0DF0075B53A /* ModelPHR.swift in Sources */,
+				30C20B7E2697109D0098DD0F /* selectedfilterCollectionViewCell.swift in Sources */,
+				30B7C07426AA9E3300B56D10 /* pembayaranselectedTableViewCell.swift in Sources */,
+				30279D4726AE61970075B53A /* CatatanMessageSizeCalculator.swift in Sources */,
+				30C20B82269711110098DD0F /* DetailtanyadoktercellTableViewCell.swift in Sources */,
+				300BC28826982587009F0AC6 /* Doktersobject.swift in Sources */,
+				3033985427474E0E004557FF /* TanyaDokterListTableViewCell.swift in Sources */,
+				30279FC526AEA0DF0075B53A /* ModelVoucer.swift in Sources */,
+				3065E57726B133FB009E4F8F /* cellmenuinhomeCollectionViewCell.swift in Sources */,
+				30279D3C26AE61970075B53A /* TwoMediaOnlyMessageCell.swift in Sources */,
+				30279F6626AE9FF70075B53A /* Internetconnection.swift in Sources */,
+				30279ED326AE74C30075B53A /* notifViewController.swift in Sources */,
+				3025E2112699447E006C07FC /* formpertanyaandateTableViewCell.swift in Sources */,
+				30279F6B26AE9FF70075B53A /* UIPrimaryButton.swift in Sources */,
+				30279FBE26AEA0DF0075B53A /* MAdvertisement.swift in Sources */,
+				30279C5726AE56470075B53A /* insertpinViewController.swift in Sources */,
+				3076E38E26E5E9C10024506E /* ResepViewController.swift in Sources */,
+				30279ECC26AE72950075B53A /* FormjawabViewController.swift in Sources */,
+				30279F6726AE9FF70075B53A /* UIEdgeInsets+Extensions.swift in Sources */,
+				30A399B526D23EA600D09D06 /* historiescellobatTableViewCell.swift in Sources */,
+				30279D4226AE61970075B53A /* UrlMessageCell.swift in Sources */,
+				30279D4A26AE61970075B53A /* TextWithMediaMessageSizeCalculator.swift in Sources */,
+				30279FB926AEA0DF0075B53A /* modelpayment.swift in Sources */,
+				300BC28C26982643009F0AC6 /* profiledokterchildViewController.swift in Sources */,
+				3065E4E326B10A46009E4F8F /* historypembelianViewControllerdelegatetochild.swift in Sources */,
+				3075498E274B80BA00D80534 /* WaitingConsulVC.swift in Sources */,
+				30279F7326AE9FF70075B53A /* Htmltostring.swift in Sources */,
+				30279F6A26AE9FF70075B53A /* UIIMage+Extensions.swift in Sources */,
+				30279D3826AE61970075B53A /* TextWithTwoMediaMessageCell.swift in Sources */,
+				30A399EC26D2837200D09D06 /* checkorderCollectionViewCell.swift in Sources */,
+				3076E39526E5FDF70024506E /* resepcellTableViewCell.swift in Sources */,
+				3028F153269BEF0E00204CDC /* Transmedik.swift in Sources */,
+				30279FB326AEA0DF0075B53A /* ConversationModel.swift in Sources */,
+				30A4AEAF26A947F5002E2C66 /* detailklinikVc.swift in Sources */,
+				30279FB626AEA0DF0075B53A /* MockMessage.swift in Sources */,
+				30279FC726AEA0DF0075B53A /* Mresepobat.swift in Sources */,
+				30279F7A26AE9FF70075B53A /* Toast.swift in Sources */,
+				3010292726AFECB8002D1F92 /* EdituserViewController.swift in Sources */,
+				30279D4D26AE61970075B53A /* CustomMessagesFlowLayout.swift in Sources */,
+				30ED87182744E0D7000376E6 /* NewCheckConsulVC.swift in Sources */,
+				30279CEE26AE60C00075B53A /* newexchat.swift in Sources */,
+				30279D4926AE61970075B53A /* ResepDokterMessageSizeCalculator.swift in Sources */,
+				304ECC3626CAA25D00318AD7 /* listalamatViewController.swift in Sources */,
+				30C20B4C2697029E0098DD0F /* Valuecolor.swift in Sources */,
+				30279F7926AE9FF70075B53A /* Color.swift in Sources */,
+				30279F7126AE9FF70075B53A /* Gradient.swift in Sources */,
+				30279ECD26AE72950075B53A /* formklinikViewController.swift in Sources */,
+				30279EAB26AE701D0075B53A /* Navi.swift in Sources */,
+				30279D5C26AE61A00075B53A /* CalendarEventHelper.swift in Sources */,
+				300BC2E226983F27009F0AC6 /* balanceobject.swift in Sources */,
+				300BC30826984BA4009F0AC6 /* edit_and_add_phrViewController.swift in Sources */,
+				30279CE726AE60C00075B53A /* UIResepTableViewCell.swift in Sources */,
+				30279D4426AE61970075B53A /* ThreeMediaOnlyMessageCell.swift in Sources */,
+				30279D4126AE61970075B53A /* ResepDokterMessageCell.swift in Sources */,
+				30279CAA26AE5FA50075B53A /* DetailChatViewController.swift in Sources */,
+				30279FAF26AEA0DF0075B53A /* ConsultationUserModel.swift in Sources */,
+				30A399E026D27FFD00D09D06 /* ordertrackingtransaksiTableViewCell.swift in Sources */,
+				30279D4326AE61970075B53A /* CatatanMessageCell.swift in Sources */,
+				3065E4ED26B10A64009E4F8F /* childhistoryViewController.swift in Sources */,
+				30279D4C26AE61970075B53A /* PHRMessageSizeCalculator.swift in Sources */,
+				30279C8A26AE5C200075B53A /* loadingsuccessViewController.swift in Sources */,
+				30C20B6E26970B2E0098DD0F /* detailklinikViewController.swift in Sources */,
+				30279F7526AE9FF70075B53A /* Capital.swift in Sources */,
+				30279D5A26AE61A00075B53A /* LocalizationHelper.swift in Sources */,
+				30279CEB26AE60C00075B53A /* ExChat.swift in Sources */,
+				30279FE226AEA7850075B53A /* ResepDokterViewController.swift in Sources */,
+				30B7C06D26AA9DCC00B56D10 /* metoderpembayaranViewController.swift in Sources */,
+				3065E4F426B10B9E009E4F8F /* historiescellkonsulTableViewCell.swift in Sources */,
+				30279D3B26AE61970075B53A /* FourMediaOnlyMessageCell.swift in Sources */,
+				300BC2EB26983FF9009F0AC6 /* lodingViewController.swift in Sources */,
+				30CCF96426D5E68B00A9285D /* PembayaranobatViewController.swift in Sources */,
+				30279D4B26AE61970075B53A /* UrlMessageSizeCalculator.swift in Sources */,
+				30279FB526AEA0DF0075B53A /* ConsultationModel.swift in Sources */,
+				30279D3726AE61970075B53A /* OneMediaOnlyMessageCell.swift in Sources */,
+				30279D4E26AE61970075B53A /* MYUIViewController.swift in Sources */,
+				30279D3E26AE61970075B53A /* Imageloadmessagecell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EDF6E12696B33400A08A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EDF6EB2696B33400A08A37 /* transmedikTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30EDF6E82696B33400A08A37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30EDF6DB2696B33300A08A37 /* transmedik */;
+			targetProxy = 30EDF6E72696B33400A08A37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30EDF6EE2696B33400A08A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30EDF6EF2696B33400A08A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30EDF6F12696B33400A08A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B374D9083C4F499ABB1F3EFC /* Pods-transmedik.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					x86_64,
+					i386,
+					"$(ARCHS_STANDARD)",
+				);
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4SL6N2CWH9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = transmedik/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.netkrom.transmedik;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		30EDF6F22696B33400A08A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D646FC4A7856FE6B168134B5 /* Pods-transmedik.release.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					x86_64,
+					i386,
+					"$(ARCHS_STANDARD)",
+				);
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4SL6N2CWH9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = transmedik/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.netkrom.transmedik;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		30EDF6F42696B33400A08A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DCCBF5333A5F00C0071DA44 /* Pods-transmedik-transmedikTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SL6N2CWH9;
+				INFOPLIST_FILE = transmedikTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.netkrom.transmedikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30EDF6F52696B33400A08A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D09C37EB4E607304B967391 /* Pods-transmedik-transmedikTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SL6N2CWH9;
+				INFOPLIST_FILE = transmedikTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.netkrom.transmedikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30EDF6D62696B33300A08A37 /* Build configuration list for PBXProject "transmedik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EDF6EE2696B33400A08A37 /* Debug */,
+				30EDF6EF2696B33400A08A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30EDF6F02696B33400A08A37 /* Build configuration list for PBXNativeTarget "transmedik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EDF6F12696B33400A08A37 /* Debug */,
+				30EDF6F22696B33400A08A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30EDF6F32696B33400A08A37 /* Build configuration list for PBXNativeTarget "transmedikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EDF6F42696B33400A08A37 /* Debug */,
+				30EDF6F52696B33400A08A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		30B7C05026AA7A7500B56D10 /* databaseTransmedik.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				30B7C05126AA7A7500B56D10 /* database.xcdatamodel */,
+			);
+			currentVersion = 30B7C05126AA7A7500B56D10 /* database.xcdatamodel */;
+			path = databaseTransmedik.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 30EDF6D32696B33300A08A37 /* Project object */;
+}

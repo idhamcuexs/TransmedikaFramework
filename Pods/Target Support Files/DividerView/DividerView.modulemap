@@ -1,0 +1,6 @@
+framework module DividerView {
+  umbrella header "DividerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

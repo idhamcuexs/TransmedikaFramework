@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>cobaload.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>43</integer>
+		</dict>
+		<key>transmedik.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3028F293269C4A4F00204CDC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3028F2A8269C4A5200204CDC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3028F2B3269C4A5200204CDC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>30EDF6DB2696B33300A08A37</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>30EDF6E42696B33400A08A37</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

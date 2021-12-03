@@ -1,0 +1,179 @@
+PODS:
+  - Alamofire (5.4.0)
+  - Bolts-Swift (1.5.0)
+  - Bolts/Tasks (1.9.1)
+  - BubbleShowCase (1.2.0)
+  - Cache (6.0.0)
+  - CDAlertView (0.10.0)
+  - CRRefresh (1.1.3)
+  - DividerView (3.0)
+  - DropDown (2.3.13)
+  - ESTabBarController-swift (2.8.0)
+  - FloatRatingView (4.0)
+  - FSPagerView (0.8.3)
+  - GoogleMaps (3.10.0):
+    - GoogleMaps/Maps (= 3.10.0)
+  - GoogleMaps/Base (3.10.0)
+  - GoogleMaps/Maps (3.10.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.10.0):
+    - GoogleMaps/Base (= 3.10.0)
+  - ImagePickerWhatsApp (1.0.0)
+  - Imaginary (5.0.0):
+    - Cache (~> 6.0.0)
+  - InputBarAccessoryView (5.2.2):
+    - InputBarAccessoryView/Core (= 5.2.2)
+  - InputBarAccessoryView/Core (5.2.2)
+  - IQKeyboardManagerSwift (6.5.6)
+  - Kingfisher (5.15.8):
+    - Kingfisher/Core (= 5.15.8)
+  - Kingfisher/Core (5.15.8)
+  - Lightbox (2.5.0):
+    - Imaginary (~> 5.0.0)
+  - lottie-ios (2.5.0)
+  - MessageInputBar (0.4.1):
+    - MessageInputBar/Core (= 0.4.1)
+  - MessageInputBar/Core (0.4.1)
+  - MessageKit (3.4.2):
+    - InputBarAccessoryView (~> 5.2.1)
+  - MSPeekCollectionViewDelegateImplementation (3.1.1)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - Parse (1.19.1):
+    - Parse/Core (= 1.19.1)
+  - Parse/Core (1.19.1):
+    - Bolts/Tasks (= 1.9.1)
+  - ParseLiveQuery (2.7.3):
+    - Bolts-Swift (~> 1.5.0)
+    - Parse (~> 1.19.0)
+    - Starscream (= 3.1.0)
+  - PryntTrimmerView (4.0.2)
+  - SkeletonView (1.11.0)
+  - Starscream (3.1.0)
+  - SteviaLayout (4.7.3)
+  - SVPinView (1.0.11)
+  - SwiftyCodeView (0.3.6):
+    - SwiftyCodeView/Core (= 0.3.6)
+  - SwiftyCodeView/Core (0.3.6)
+  - SwiftyJSON (5.0.0)
+  - SwipeCellKit (2.7.1)
+  - URLEmbeddedView (0.18.0)
+  - YPImagePicker (4.4.0):
+    - PryntTrimmerView (~> 4.0.2)
+    - SteviaLayout (~> 4.7.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - BubbleShowCase
+  - CDAlertView
+  - CRRefresh
+  - DividerView (= 3.0)
+  - DropDown
+  - ESTabBarController-swift
+  - FloatRatingView (~> 4)
+  - FSPagerView
+  - GoogleMaps (= 3.10.0)
+  - GooglePlaces (= 3.10.0)
+  - ImagePickerWhatsApp
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - Lightbox
+  - lottie-ios (= 2.5.0)
+  - MessageInputBar
+  - MessageKit
+  - MSPeekCollectionViewDelegateImplementation
+  - NVActivityIndicatorView
+  - Parse
+  - ParseLiveQuery (~> 2.7.0)
+  - SkeletonView
+  - Starscream (~> 3.1.0)
+  - SVPinView (~> 1.0)
+  - SwiftyCodeView
+  - SwiftyJSON
+  - SwipeCellKit
+  - URLEmbeddedView
+  - YPImagePicker
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Bolts
+    - Bolts-Swift
+    - BubbleShowCase
+    - Cache
+    - CDAlertView
+    - CRRefresh
+    - DividerView
+    - DropDown
+    - ESTabBarController-swift
+    - FloatRatingView
+    - FSPagerView
+    - GoogleMaps
+    - GooglePlaces
+    - ImagePickerWhatsApp
+    - Imaginary
+    - InputBarAccessoryView
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - Lightbox
+    - lottie-ios
+    - MessageInputBar
+    - MessageKit
+    - MSPeekCollectionViewDelegateImplementation
+    - NVActivityIndicatorView
+    - Parse
+    - ParseLiveQuery
+    - PryntTrimmerView
+    - SkeletonView
+    - Starscream
+    - SteviaLayout
+    - SVPinView
+    - SwiftyCodeView
+    - SwiftyJSON
+    - SwipeCellKit
+    - URLEmbeddedView
+    - YPImagePicker
+
+SPEC CHECKSUMS:
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
+  Bolts-Swift: afbbaf8c8186e7f769be4afa656949c14087ba44
+  BubbleShowCase: a49a216f1e1373399060c41c1c599f91b77ce6bd
+  Cache: 4ca7e00363fca5455f26534e5607634c820ffc2d
+  CDAlertView: ee6a87c90c4283c8d316d55633db1a6981f1cc51
+  CRRefresh: 1415d4ae06837fa7bb064c44f2e102f3ef517044
+  DividerView: 5d1446924c4149fd9d8a4fb726f1cde2155e30e6
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
+  FloatRatingView: bb6bdddfbeec51b1d387b4bd50abc27b4dfccd48
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  GoogleMaps: 8c080862ff2748ece9929471b30feb56a6c5079d
+  GooglePlaces: 9a6f5f3a0c88da2aa1bf7426a65d3e004f5e69a1
+  ImagePickerWhatsApp: ca8e8f68c066db1929c854e5902a2ec6b5cb0726
+  Imaginary: cf5e3a7dd6ab1dcbd47ba8ce5edf2307c4e99eb3
+  InputBarAccessoryView: 8ec44fced9840957831f7ab842e9c4fe6ff9a252
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  Lightbox: cc3d5124f024fa8197fd23f913160db1c61a1852
+  lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
+  MessageInputBar: e81c7535347f1f7b923de7080409a535a004b6e4
+  MessageKit: 5ff0908bce5a7b6e11bd0b60e13a33e03697d161
+  MSPeekCollectionViewDelegateImplementation: f86fd6a6ce284723343e8697a013f5294c05e745
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  Parse: e40fdb9c7d665823b7fe9865949cac9a53eb2ce7
+  ParseLiveQuery: aa101713e54981b204b65c969e5a142092e1f93f
+  PryntTrimmerView: 6a43cc90df5d99addeabd33d4ba09b1365322130
+  SkeletonView: cc84ce90a804dd0dd7198dd802833411c8a64eaf
+  Starscream: 08172b481e145289c4930cb567230fb55897cfa4
+  SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
+  SVPinView: 9b538d0ba68cdb092afe4f0f67ec84cbed079466
+  SwiftyCodeView: 0252e3520749a3fda1a9b141873401f8e6c570ad
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  SwipeCellKit: 3972254a826da74609926daf59b08d6c72e619ea
+  URLEmbeddedView: 3fe17ae535d2b8d38c3b08ab8ba0aea5efe5d1cd
+  YPImagePicker: 15aed8bcaa4dad976e11b6114126d731a2f9f3c9
+
+PODFILE CHECKSUM: 4cc63a250ba45128e7305065fecce8d3fec5d33b
+
+COCOAPODS: 1.10.0
